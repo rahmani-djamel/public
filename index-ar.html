@@ -34,15 +34,14 @@
 </head>
 <!--<body class=" bg-gradient-to-t from-[#F3F3F3] ">-->
 
-<body class="    ">
-
+<body class="    " oncontextmenu="return false;">
 
   <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <a href="index-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
 
 
-        <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">ألجارا</span>
+        <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">Algara</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
         aria-controls="navbar-default" aria-expanded="false">
@@ -55,15 +54,37 @@
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
 
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
+            <a href="about-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">
+            <a href="index-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">
             من نحن</a>
           </li>
           <li>
             <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
               style="">اتصل بنا</a>
+          </li>
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">العربية
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                </li>
+                <li>
+                  <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">العربية</a>
+                </li>
+                <li>
+                  <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Français</a>
+                </li>
+              </ul>
+
+            </div>
           </li>
 
         </ul>
@@ -77,15 +98,17 @@
 
 
     <div class="px-4 mx-auto    text-center py-32 md:py-32  lg:py-32 content-center">
-      <img src="img/logo-resto.svg" class="content-center center justify-center mx-auto w-[222px] md:w-[605px] lg:w-[605px] mb-10 md:mb-24  lg:mb-24"> 
-      <h1 class="leading-loose mb-5 text-[28px] font-bold tracking-tight  text-[#05060F] md:text-5xl lg:text-6xl w-auto  md:w-[800px] lg:w-[800px]  justify-center mx-auto leading-8">ﺳﺌﻤﺖ ﻣﻦ <span class="text-[#F6CB1F]"> ﺍﻻﻧﺘﻈﺎﺭ </span> ﻓﻲ ﺍﻟﻤﻄﺎﻋﻢ <span class="text-[#F6CB1F]"> ﻟﺘﺤﻀﻴﺮ </span> ﻃﻠﺒﻴﺘﻚ ؟</h1>
+      <img src="img/logo-resto.svg" class="content-center center justify-center mx-auto w-[222px] md:w-[605px] lg:w-[605px] mb-10 md:mb-24  lg:mb-24">
+      <h1 class="  mb-5 text-[28px]     text-[#05060F] md:text-5xl lg:text-6xl w-auto  md:w-[800px] lg:w-[800px]  justify-center mx-auto  ">ﺳﺌﻤﺖ ﻣﻦ
+        <span class="text-[#F6CB1F]"> ﺍﻻﻧﺘﻈﺎﺭ </span> ﻓﻲ ﺍﻟﻤﻄﺎﻋﻢ
+        <span class="text-[#F6CB1F]"> ﻟﺘﺤﻀﻴﺮ </span> ﻃﻠﺒﻴﺘﻚ ؟</h1>
 
       <p class="mb-4  md:mb-8 lg:mb-8  mt-16 text-base  text-[#05060F] lg:text-xl sm:px-16 lg:px-48">
-        تطبيق Resto هو الحل</p>
+        تطبيق ريستو هو الحل </p>
       <p class="mb-5 text-lg font-normal text-[#05060F] lg:text-xl sm:px-16 lg:px-48 hidden lg:block md:block">متاح على</p>
       <div dir="ltr" class="flex flex-col d-flex mt-5 md:mt-0 lg:mt-0  space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left ">
         <div class=" space-x-3 flex">
-          <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#5627FF] text-white rounded-xl items-center justify-center   ">
+          <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center   ">
             <div class="mr-3">
               <svg viewBox="0 0 384 512" class="w-7">
                 <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
@@ -97,9 +120,9 @@
               <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
             </div>
           </div>
-          <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#5627FF] text-white rounded-xl items-center justify-center    ">
+          <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center    ">
             <div class="mr-3">
-              <img src="img/googleplay.png" class="w-7">
+              <img src="img/googleplay.svg" class="w-7">
 
 
             </div>
@@ -112,9 +135,9 @@
 
         </div>
 
-        <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#5627FF] text-white rounded-xl items-center justify-center   ">
+        <div class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center   ">
           <div class="mr-3">
-            <img src="img/appgallery.svg" class="w-7">
+            <img src="img/appgallery-03.svg" class="w-7">
 
           </div>
           <div>
@@ -142,10 +165,14 @@
           <div class="content">
 
             <p class="text-[32px]  mt-5 font-bold leading-tight   ">
-              تطبيق Resto
+              تطبيق ريستو
             </p>
             <p class="mt-5 text-sm md:text-[20px] lg:text-[20px] leading-7">
-                هل سئمتَ من الانتظار في الطابور لوجبتك ؟ ريستو هو الحل! يسمح لك تطبيق ريستو بتقديم طلبيتك مباشرة من هاتفك، مما يتيح لك تجاوز الطابور و البدء في الاستمتاع بوجبتك بشكل أسرع. بالإضافة إلى ذلك، يمكنك تصفح الأطباق والوجبات المُقدَّمة من طرف المطعم، و استكشاف و إيجاد المطعم المناسب لك، و الحصول على عروض حصرية، كل ذلك بضغطة زر. و هذا ليس كل شيء ! يتيح لك ريستو أيضًا حجز طاولتك مسبقًا في المطاعم، مما يضمن تجربة طعام ممتعة و خالية من الإجهاد، و المزيد من الخيارات بانتظارك !
+              هل سئمتَ من الانتظار في الطابور لوجبتك ؟ ريستو هو الحل! يسمح لك تطبيق ريستو بتقديم طلبيتك مباشرة من هاتفك، مما يتيح لك تجاوز
+              الطابور و البدء في الاستمتاع بوجبتك بشكل أسرع. بالإضافة إلى ذلك، يمكنك تصفح الأطباق والوجبات المُقدَّمة من
+              طرف المطعم، و استكشاف و إيجاد المطعم المناسب لك، و الحصول على عروض حصرية، كل ذلك بضغطة زر. و هذا ليس كل شيء
+              ! يتيح لك ريستو أيضًا حجز طاولتك مسبقًا في المطاعم، مما يضمن تجربة طعام ممتعة و خالية من الإجهاد، و المزيد
+              من الخيارات بانتظارك !
             </p>
 
 
@@ -163,31 +190,32 @@
     <!-- ************************************* BEGIN SECTION 03 *********************************-->
 
     <div class="container  mt-0 md:mt-24 lg:mt-24 mb-16 md:mb-24 lg:mb-24 px-4 justify-center mx-auto max-w-7xl  ">
-        <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
-            مميزات و خصائص تطبيق ريستو
+      <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
+        مميزات و خصائص تطبيق ريستو
 
-        </p>
-        <p class="mt-5 text-[16px] md:text-[25px] lg:text-[25px] leading-7 max-w-[600px]">
-            يقدم لك تطبيق ريستو العديد من المميزات والخصائص لكي تحظى بتجربة تناول طعام مثالية و غير مسبوقة
-        </p>
-      </div>
+      </p>
+      <p class="mt-5 text-[16px] md:text-[25px] lg:text-[25px] leading-7 max-w-[600px]">
+        يقدم لك تطبيق ريستو العديد من المميزات والخصائص لكي تحظى بتجربة تناول طعام مثالية و غير مسبوقة
+      </p>
+    </div>
     <!-- ************************************* END SECTION 03 *********************************-->
     <div class=" bg-[#F3F3F3] ">
       <!-- ************************************* BEGIN SECTION 04 *********************************-->
       <!-- component -->
-     
+
       <div class="flex flex-col     px-4 justify-center mx-auto max-w-7xl     ">
-        
+
         <div class="flex flex-col px-2 py-12 md:px-4 md:flex-row items-center  grid gap-x-12 gap-y-16 md:grid-cols-5 lg:grid-cols-5 ">
           <div class="  order-2 md:order-none lg:order-none md:col-span-3 lg:col-span-3    rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
 
             <div class="px-5 md:px-9 lg:px-9 pt-10  mb-7 py-6 md:py-10 lg:py-10 rounded-b-lg ">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">‫قم  <span class="text-[#F6CB1F]"> بتخصيص</span> طلبيتك‬
-                 
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">‫قم
+                  <span class="text-[#F6CB1F]"> بتخصيص</span> طلبيتك‬
+
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7   ">
-                    أختر طلبيتك و خصصها في ثوان و راح تلقاها جاهزة فور وصولك للمطعم بفضل خدمة تسبيق الطلبية الجديدة. مع ريستو - وداعا للانتظار
+                  أختر طلبيتك و خصصها في ثوان و راح تلقاها جاهزة فور وصولك للمطعم بفضل خدمة تسبيق الطلبية الجديدة. مع ريستو - وداعا للانتظار
                 </div>
               </div>
 
@@ -205,23 +233,23 @@
             <div class="px-5 md:px-9 lg:px-9  pt-10 mb-8 py-6 md:py-6 lg:py-6   rounded-b-lg">
               <div class="text-[#05060F] space-y-4">
                 <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
-                    <span class="text-[#F6CB1F]">إستكشف  </span>
-                    المطاعم
+                  <span class="text-[#F6CB1F]">إستكشف </span>
+                  المطاعم
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
-                    إستكشف و تعرف على المطاعم بمختلف أنواعها في مدينتك او في وجهتك القادمة, و اختار المطعم اللي يناسبك
+                  إستكشف و تعرف على المطاعم بمختلف أنواعها في مدينتك او في وجهتك القادمة, و اختار المطعم اللي يناسبك
 
                 </div>
               </div>
 
             </div>
 
-            <img src="img/app-cap-011.svg" alt="Featured Image 1 " class=" hidden lg:block md:block  px-5 md:px-0 lg:px-0 w-[320px] md:w-auto lg:w-auto   h-fill rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            <img src="img/app-cap-new-011.svg" alt="Featured Image 1 " class=" hidden lg:block md:block  px-5 md:px-0 lg:px-0 w-[320px] md:w-auto lg:w-auto   h-fill rounded-t-xl mx-auto text-center items-center justify-center content-center"
             />
-    
-            <img src="img/iPhone_14.svg" alt="Featured Image 1 " class=" block lg:hidden md:hidden  px-5 md:px-0 lg:px-0 w-[320px] md:min-w-auto lg:w-auto  h-fill    rounded-t-xl mx-auto text-center items-center justify-center content-center"
+
+            <img src="img/app-cap-new-011.svg" alt="Featured Image 1 " class=" block lg:hidden md:hidden  px-5 md:px-0 lg:px-0 w-[320px] md:min-w-auto lg:w-auto  h-fill    rounded-t-xl mx-auto text-center items-center justify-center content-center"
             />
-    
+
 
 
           </div>
@@ -236,14 +264,14 @@
 
             <div class="px-5 md:px-9 lg:px-9 pt-10  pb-14   rounded-b-lg ">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> 
-                    <span class="text-[#F6CB1F]"> ‫الحجز </span>
-                    أصبح اسهل‬
-                  
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
+                  <span class="text-[#F6CB1F]"> ‫الحجز </span>
+                  أصبح اسهل‬
+
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
-                    غداء عمل او عشاء عائلي, مهما كان أتهنى من قلق الجلوس و احجز طاولتك مع ريستو. الحجز ولا أسهل و أسرع
-                
+                  غداء عمل او عشاء عائلي, مهما كان أتهنى من قلق الجلوس و احجز طاولتك مع ريستو. الحجز ولا أسهل و أسرع
+
 
                 </div>
               </div>
@@ -261,12 +289,12 @@
           <div class=" order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
             <div class="px-5 md:px-9 pt-10 pb-14   rounded-b-lg">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">    ‫تجنب 
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫تجنب
                   <span class="text-[#F6CB1F]">البحث‬</span>
                 </h3>
-                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  "> 
-                    تجنب البحث و قم بالوصول الى المطاعم القريبة منك أينما كنت و في أي وقت بضغطة زر مع الميزة الجديدة للبحث عن المطاعم القريبة
-                  </div>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  تجنب البحث و قم بالوصول الى المطاعم القريبة منك أينما كنت و في أي وقت بضغطة زر مع الميزة الجديدة للبحث عن المطاعم القريبة
+                </div>
               </div>
 
             </div>
@@ -280,16 +308,16 @@
       </div>
       <!-- ************************************* END SECTION 05 *********************************-->
       <!-- ************************************* BEGIN SECTION 06 *********************************-->
-      <div class="   mx-auto justify-center   mt-16 mb-24 px-4  max-w-7xl   ">
+      <div class="   mx-auto justify-center   mt-16 mb-24 px-4  max-w-7xl bg-transparent  ">
 
-        <div class="container   md:flex container text-center mx-auto mb-10  w-auto md:w-[900px] lg:w-[900px]  ">
-          <p class="text-[28px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
-              استكشف المطعم و صوره من الداخل و الخارج و كأنك تزوره
+        <div class="container   md:flex container text-center mx-auto mb-10  w-auto md:w-[900px] lg:w-[900px] bg-transparent ">
+          <p class="text-[28px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0  bg-transparent">
+            استكشف المطعم و صوره من الداخل و الخارج و كأنك تزوره
           </p>
 
         </div>
 
-        <div id="default-carousel" class="relative w-full " data-carousel="slide" dir="ltr">
+        <div id="default-carousel" class="relative w-full bg-transparent" data-carousel="slide" dir="ltr">
           <!-- Carousel wrapper -->
           <div class="relative h-[210px] overflow-hidden rounded-lg md:h-[500px] lg:h-[500px]">
             <!-- Item 1 -->
@@ -314,7 +342,7 @@
             </div>
           </div>
           <!-- Slider indicators -->
-          <div class="absolute z-30 flex -translate-x-1/2 bottom-2  md:bottom-5 lg:bottom-5  left-1/2 space-x-3 rtl:space-x-reverse">
+          <div class="absolute z-30 flex translate-x-1/2 bottom-2  md:bottom-5 lg:bottom-5  right-1/2 space-x-3 ">
             <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
             <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 2"
               data-carousel-slide-to="1"></button>
@@ -328,9 +356,10 @@
           <!-- Slider controls -->
           <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev>
-            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30 :bg-gray-800/30 group-hover:bg-white/50 :group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white :group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white :text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 6 10">
+            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30
+              group-focus:ring-white group-focus:outline-none">
+              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
               </svg>
               <span class="sr-only">Previous</span>
@@ -338,9 +367,9 @@
           </button>
           <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-next>
-            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30 :bg-gray-800/30 group-hover:bg-white/50 :group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white :group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white :text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 6 10">
+            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30    ">
+              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
               </svg>
               <span class="sr-only">Next</span>
@@ -364,11 +393,11 @@
 
             <div class="px-5 md:px-9 lg:px-9 pt-10  mb-16   rounded-b-lg ">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> لا تضيع 
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> لا تضيع
                   <span class="text-[#F6CB1F]"> وقتك </span>
                 </h3>
-                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  "> 
-                    تفادى تضييع الوقت و الجهد عند الوصول و ايجاد المطعم مغلق, التطبيق يعطيك أوقات عمله كل الأسبوع و الخدمات التي يقدمها
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  تفادى تضييع الوقت و الجهد عند الوصول و ايجاد المطعم مغلق, التطبيق يعطيك أوقات عمله كل الأسبوع و الخدمات التي يقدمها
                 </div>
               </div>
 
@@ -383,7 +412,7 @@
           <div class="order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
             <div class="px-5 md:px-9 pt-10 mb-[28px]   rounded-b-lg">
               <div class="text-[#05060F]  space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">  ‫استمتع
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫استمتع
                   <span class="text-[#F6CB1F]"> بخصومات حصرية </span>
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">استخدم النقاط و أكواد التخفيض و استمتع بتناول الطعام بأفضل الأسعار</div>
@@ -409,9 +438,9 @@
 
             <div class="px-5 md:px-9 lg:px-9 pt-10  pb-14   rounded-b-lg ">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫استكشف 
-                 
-                  <span class="text-[#F6CB1F]">   قوائم الطعام‬ </span>
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫استكشف
+
+                  <span class="text-[#F6CB1F]"> قوائم الطعام‬ </span>
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">أختر المطعم المناسب بعد استكشاف أطباقه و أسعاره و استفد من العروض الحصرية عبر التطبيق</div>
               </div>
@@ -427,11 +456,12 @@
           <div class="order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-02.svg')] bg-cover bg-white h-full">
             <div class="px-5 md:px-9 pt-10 pb-14   rounded-b-lg">
               <div class="text-[#05060F] space-y-4">
-                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">  ‫أين  <span class="text-[#F6CB1F]">يقع</span> المطعم؟‬
-                  
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫أين
+                  <span class="text-[#F6CB1F]">يقع</span> المطعم؟‬
+
                 </h3>
                 <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
-                    لا تعرف أين يتواجد المطعم، لا تتعب نفسك. بضغطة زر سيأخذك التطبيق إلى بابه.</div>
+                  لا تعرف أين يتواجد المطعم، لا تتعب نفسك. بضغطة زر سيأخذك التطبيق إلى بابه.</div>
               </div>
 
             </div>
@@ -453,7 +483,8 @@
   <div class="  container mx-auto   px-4   mt-24 mb-32  justify-center     max-w-7xl  ">
 
     <p class=" mx-auto justify-center text-center  mb-10 text-[28px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0  ">
-        التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم
+      حمِل تطبيق
+      <span class="text-[#F6CB1F]">ريستو</span>
     </p>
 
 
@@ -462,7 +493,9 @@
       <div class="px-4 mx-auto     text-center py-10 md:py-10  lg:py-10 content-center">
         <img src="img/logo-02.svg" class="content-center center justify-center mx-auto   mb-5  ">
         <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
-            حمِل تطبيق ريستو
+
+          التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم
+
         </h3>
         <p class="mb-5 text-lg font-normal text-white   lg:text-xl sm:px-16 lg:px-48 hidden lg:block md:block">لا شك أنك تناولت طعامك بالخارج، ولكنك تحتار في أي مطعم.. </p>
 
@@ -485,7 +518,7 @@
           </div>
           <div class="flex w-[186px] h-[64px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
             <div class="mr-3">
-              <img src="img/googleplay-02.png" class="w-7">
+              <img src="img/googleplay-02.svg" class="w-7">
 
 
             </div>
@@ -497,7 +530,7 @@
 
           <div class="flex w-[186px] h-[64px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
             <div class="mr-3">
-              <img src="img/appgallery-02.svg" class="w-7 ">
+              <img src="img/appgallery-03.svg" class="w-7 ">
 
             </div>
             <div>
@@ -519,16 +552,16 @@
 
     <div class="container text-center  ">
       <p class="mx-auto max-w-[700px] text-[30px] md:text-[64px] lg:text-[64px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
-          هل أنت صاحب مطعم؟
+        هل أنت صاحب مطعم؟
       </p>
       <p class="mx-auto mt-5 text- md:text-[24px] lg:text-[24px] leading-7 max-w-[250px] md:max-w-[430px] lg:max-w-[430px]">
-          انضم إلينا و أضف لمسة خاصة لمطعمك
+        انضم إلينا و أضف لمسة خاصة لمطعمك
       </p>
       <div class="d-flex w-64 mx-auto mt-5">
         <img src="img/quote-01.svg" class="float-right">
         <div style="clear: both;"></div>
         <button class="bg-[#F6CB1F]   text-[#03070E] font-bold py-2 px-4 rounded-xl leading-10" style=" overflow: hidden ; white-space: nowrap;">
-            اضف مطعمك الى تطبيق ريستو
+          اضف مطعمك الى تطبيق ريستو
         </button>
         <div style="clear: both;"></div>
 
@@ -547,7 +580,7 @@
 
 
 
-  <footer class="bg-[#05060F] :bg-gray-900 px-4  mt-32  mt-32 ">
+  <footer class="bg-[#05060F]  px-4  mt-32  mt-32 ">
     <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
         <div>
@@ -562,7 +595,7 @@
               <a href="#" class=" hover:underline">من نحن</a>
             </li>
             <li class="mb-4">
-              <a href="#" class="hover:underline">تواصل معنا           </a>
+              <a href="#" class="hover:underline">تواصل معنا </a>
             </li>
             <li class="mb-4 mt-24 mx-auto text-center  items-center hidden lg:block md:block ">
               <div class="flex     md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center">
@@ -603,13 +636,13 @@
         </div>
 
         <div>
-          <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">حلولنا                </h2>
-          <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> حلولنا               </h2>
+          <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">حلولنا </h2>
+          <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> حلولنا </h2>
 
           <ul class="text-gray-500 :text-gray-400 font-medium">
-            
+
             <li class="mb-4">
-              <a href="#" class="hover:underline block  ">ريستو               </a>
+              <a href="#" class="hover:underline block  ">ريستو </a>
             </li>
             <li class="mb-4">
               <a href="#" class="hover:underline block  ">ريستو للمطاعم</a>
@@ -619,18 +652,18 @@
           </ul>
         </div>
         <div class="hidden lg:block md:block">
-          <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف        </h2>
+          <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف </h2>
 
           <ul class="text-gray-500 :text-gray-400 font-medium">
             <li class="mb-4">
               <a href="#" class="hover:underline">انضم لفريقنا</a>
             </li>
-            
+
 
           </ul>
         </div>
         <div class="hidden lg:block md:block">
-          <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق رستو</h2>
+          <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق ريستو </h2>
 
 
 
@@ -652,7 +685,7 @@
             <li class="mb-4">
               <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                 <div class="mr-3">
-                  <img src="img/googleplay-02.png" class="w-7">
+                  <img src="img/googleplay-02.svg" class="w-7">
 
 
                 </div>
@@ -665,7 +698,7 @@
             <li class="mb-4">
               <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
                 <div class="mr-3">
-                  <img src="img/appgallery-02.svg" class="w-7 ">
+                  <img src="img/appgallery-03.svg" class="w-7 ">
 
                 </div>
                 <div>
@@ -726,7 +759,7 @@
         </ul>
         <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">سياسه الخصوصيه - شروط الاستخدام - سياسة ملفات الارتباط </h1>
 
-        <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  ">   © 2023 شركة ألجارا. جميع الحقوق محفوظة.
+        <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 شركة ألجارا. جميع الحقوق محفوظة.
         </h1>
       </div>
 
@@ -778,7 +811,32 @@
     }
   </script>
 
+<script>
+  contextMenuCatch = {
+  ie: function(){
+      if( document.all ){
+          return false;
+      }
+  },
+  netscape: function(e){
+      if( document.layers || (document.getElementById && !document.all) ){
+          if( e.which == 2 || e.which == 3 ){
+              return false;
+          }
+      }
+  }
+}
 
+if (document.layers) {
+  document.captureEvents(Event.mousedown);
+  document.onmousedown = contextMenuCatch.netscape;
+} else {
+  document.onmouseup = contextMenuCatch.netscape;
+  document.oncontextmenu = contextMenuCatch.ie;
+}
+document.oncontextmenu = new Function("return false");
+document.onselectstart = new Function("return false");
+</script>
 </body>
 
 </html>

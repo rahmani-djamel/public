@@ -60,14 +60,13 @@
 
 </head>
 
-<body class="bg-gradient-to-r from-[#F3F3F3] ">
-
+<body class="bg-gradient-to-r from-[#F3F3F3] " oncontextmenu="return false;">
 
     <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-
-
+            <a href="index-fr.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+    
+    
                 <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">Algara</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
@@ -79,18 +78,40 @@
             </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
-
+    
                     <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">Notre solution</a>
+                        <a href="about-fr.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">Notre solution</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">À propos de nous</a>
+                        <a href="index-fr.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">À propos de nous</a>
                     </li>
                     <li>
                         <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
                             style="">Contactez-nous</a>
                     </li>
-
+                    <li>
+                      <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Français
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                        </svg>
+                      </button>
+                      <!-- Dropdown menu -->
+                      <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                          <li>
+                            <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                          </li>
+                          <li>
+                            <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">العربية</a>
+                          </li>
+                          <li>
+                            <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Français</a>
+                          </li>
+                        </ul>
+          
+                      </div>
+                    </li>
+    
                 </ul>
             </div>
         </div>
@@ -108,8 +129,8 @@
             <div class="content my-auto">
 
                 <p class="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight   sm:mt-0 ">
-                   Entreprise
-                    <span class="text-[#5627FF]">Algara.</span>
+                        Vie quotidienne 
+                    <span class="text-[#5627FF]">plus facile.</span>
                 </p>
                 <div class="relative sm:mt-0 mt-10 px-6 sm:px-0 block md:hidden lg:hidden">
 
@@ -123,7 +144,7 @@
                 <div class="flex gap-16 mt-10 hidden md:block lg:block">
 
                     <button class="  text-[16px] flex items-center  rounded-xl font-bold text-white  bg-[#5627FF] " style="padding:16px 32px 16px 32px">
-                        Contact Us </button>
+                        Contactez nous </button>
 
                 </div>
 
@@ -142,7 +163,7 @@
         <div class="  px-4 container text-center mx-auto  justify-center  mt-32  mb-16  max-w-7xl  ">
             <img src="img/goal.svg" class="mx-auto mb-5">
             <p class="mx-auto   text-[40px] md:text-[50px] lg:text-[50px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
-                Objectifs de l'entreprise
+                Nos objectifs
             </p>
             <p class="mx-auto mt-5 mb-5 text-lg font-medium md:text-[20px] lg:text-[20px] leading-7 max-w-auto md:max-w-[700px] lg:max-w-[700px]">
                 <span class="text-[#5627FF] md:text-[#05060F] lg:text-[#05060F]">Algara</span>   vise à rendre la vie quotidienne plus facile en comprenant bien les besoins de ses clients et
@@ -172,17 +193,17 @@
                 >
                     <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:h-auto [&_img]:min-w-[150px] md:[&_img]:min-w-[200px] lg:[&_img]:min-w-[200px]   animate-infinite-scroll">
                         <li>
-                            <img src="img/swiper-01.png" alt="Facebook" class="  "/>
+                            <img src="img/swiper-01-fr.png" alt="Facebook" class="  "/>
                         </li>
                        
                         <li>
-                            <img src="img/swiper-03.png" alt="Airbnb"  class="  "/>
+                            <img src="img/swiper-03-fr.png" alt="Airbnb"  class="  "/>
                         </li>
                         <li>
-                            <img src="img/swiper-04.png" alt="Apple"  class="  "/>
+                            <img src="img/swiper-04-fr.png" alt="Apple"  class="  "/>
                         </li>
                         <li>
-                            <img src="img/swiper-05.png" alt="Spark"  class="  "/>
+                            <img src="img/swiper-05-fr.png" alt="Spark"  class="  "/>
                         </li>
                          
                     </ul>                
@@ -211,17 +232,17 @@
                     >
                     <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:h-auto [&_img]:min-w-[150px] md:[&_img]:min-w-[200px] lg:[&_img]:min-w-[200px]    animate-infinite-scroll1">
                         <li>
-                            <img src="img/swiper-01.png" alt="Facebook" class="  "/>
+                            <img src="img/swiper-01-fr.png" alt="Facebook" class="  "/>
                         </li>
                         
                         <li>
-                            <img src="img/swiper-03.png" alt="Airbnb"  class="  "/>
+                            <img src="img/swiper-03-fr.png" alt="Airbnb"  class="  "/>
                         </li>
                         <li>
-                            <img src="img/swiper-04.png" alt="Apple"  class="  "/>
+                            <img src="img/swiper-04-fr.png" alt="Apple"  class="  "/>
                         </li>
                         <li>
-                            <img src="img/swiper-05.png" alt="Spark"  class="  "/>
+                            <img src="img/swiper-05-fr.png" alt="Spark"  class="  "/>
                         </li>
                          
                     </ul>             
@@ -267,7 +288,7 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2">Qualité</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0" style=" overflow: hidden ; white-space: nowrap;">La Qualité</h1>
 
                                 </div>
 
@@ -283,7 +304,7 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2" style=" overflow: hidden ; white-space: nowrap; ">La modernité</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0" style=" overflow: hidden ; white-space: nowrap; ">La Modernité</h1>
 
                                 </div>
 
@@ -299,7 +320,7 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2">Facilité</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0" style=" overflow: hidden ; white-space: nowrap;">La Facilité </h1>
 
                                 </div>
 
@@ -315,10 +336,10 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2">Concours</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0  " style=" overflow: hidden ; white-space: nowrap;">La Compétitivité </h1>
 
                                 </div>
-
+                  
 
                             </div>
                         </div>
@@ -331,7 +352,7 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2">Opération</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0" style=" overflow: hidden ; white-space: nowrap;">La Praticitè</h1>
 
                                 </div>
 
@@ -347,7 +368,7 @@
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-2 lg:ml-2">Précision</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 md:ml-4 lg:ml-4 mt-2 md:mt-0 lg:mt-0" style=" overflow: hidden ; white-space: nowrap;">La Précision</h1>
 
                                 </div>
 
@@ -384,7 +405,7 @@
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">200K
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">5k
                             <span class="text-[#5627FF]">+</span>
                         </h2>
                         <p class="text-[18px] font-medium -mt-2">Utilisateurs</p>
@@ -393,15 +414,15 @@
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">15
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">2
                             <span class="text-[#5627FF]">+</h2>
-                        <p class="text-[18px] font-medium -mt-2">Projets</p>
+                        <p class="text-[18px] font-medium -mt-2">Solutions</p>
                     </div>
                 </div>
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class=" mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">200
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">6
                             <span class="text-[#5627FF]">+</h2>
                         <p class="text-[18px] font-medium -mt-2">Employés</p>
                     </div>
@@ -409,9 +430,9 @@
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">54
-                            <span class="text-[#5627FF]">%</h2>
-                        <p class=" text-[18px] font-medium -mt-2">Croissance annuelle moyenne</p>
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">1
+                            <span class="text-[#5627FF]"></h2>
+                        <p class=" text-[18px] font-medium -mt-2">Wilayas</p>
                     </div>
                 </div>
             </div>
@@ -437,7 +458,7 @@
                 </p>
                 <div style="clear: both;"></div>
 
-                <img src="img/quote-about-02.svg" class="-rotate-[20deg]  float-left w-8 h-8 md:w-12 md:h-12 lg:w-12 lg:h-12 -mt-5  ml-0 md:ml-16 lg:ml-16">
+                <img src="img/quote-about-02.svg" class="-rotate-[20deg]  float-left w-8 h-8 md:w-12 md:h-12 lg:w-12 lg:h-12   ml-0 md:ml-16 lg:ml-16">
                 <div style="clear: both;"></div>
 
                 <!-- component -->
@@ -474,7 +495,7 @@
       
         <div class="          ">
             <p class="text-[#05060F] text-[35px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mb-16   ">
-                Notre 
+                Nos 
                 <span class="text-[#5627FF] md:text-[#05060F] lg:text-[#05060F]">Solution</span>
             </p>
             <div class="  flex flex-col px-0  md:px-6 lg:px-6   mx-auto space-y-16    lg:flex-row items-center text-white justify-center bg-center bg-no-repeat bg-[url('img/back-04.png')]   bg-cover  bg-black md:bg-[#5627FF] lg:bg-[#5627FF] rounded-[40px]">
@@ -485,11 +506,11 @@
                             Resto
                             <span class="hidden md:inline-flex lg:inline-flex">App</span>
                         </h3>
-                        <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] ">Il ne fait aucun doute que vous avez mangé au restaurant, mais vous ne savez pas quel restaurant .</div>
+                        <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] ">La première application mobile en Algérie pour la précommande et la réservation dans les restaurants</div>
 
                         <p class="mb-5 text-lg font-normal text-white mt-10 lg:text-xl sm:px-16 lg:px-48 hidden lg:block md:block mx-auto text-center">Disponible sur</p>
-                        <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">La première application mobile de Précommande et Réservation en Algérie</p>
-
+                        <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">La première application mobile en Algérie pour la précommande et la réservation dans les restaurants</p>
+                        
                         <div class="hidden md:inline-flex lg:inline-flex mt-5 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left ">
 
                             <div class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
@@ -506,7 +527,7 @@
                             </div>
                             <div class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                                 <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
+                                    <img src="img/googleplay-02.svg" class="w-7">
 
 
                                 </div>
@@ -531,7 +552,7 @@
                         <div class="block md:hidden lg:hidden  mt-10 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left ">
                             <div class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                                 <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
+                                    <img src="img/googleplay-02.svg" class="w-7">
 
 
                                 </div>
@@ -566,7 +587,7 @@
                             </div>
 
                         </div>
-                        <button type="button" class="mt-10 text-[18px] md:text-[16px] lg:text-[16px] text-black md:text-[#5627FF] lg:text-[#5627FF]  bg-[#F6CB1F] md:bg-white lg:bg-white  focus:ring-4   font-bold rounded-full md:rounded-lg lg:rounded-lg      mb-2 w-full md:w-auto lg:w-auto  " style="padding:16px 16px 16px 16px; overflow: hidden ; white-space: nowrap; ">En savoir plus sur l'application Resto</button>
+                        <button type="button" class="mt-10 text-[18px] md:text-[16px] lg:text-[16px] text-black md:text-[#5627FF] lg:text-[#5627FF]  bg-[#F6CB1F] md:bg-white lg:bg-white  focus:ring-4   font-bold rounded-full md:rounded-lg lg:rounded-lg      mb-2 w-full md:w-auto lg:w-auto  " style="padding:16px 16px 16px 16px; overflow: hidden ; white-space: nowrap; ">En savoir plus sur  Resto</button>
 
                     </div>
                 </div>
@@ -583,8 +604,7 @@
     <!-- ************************************* FOOTER SECTION  *********************************-->
 
 
-
-
+ 
     <footer class="bg-[#05060F] :bg-gray-900 px-4  mt-32  mt-32 ">
         <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
@@ -634,32 +654,29 @@
                 </div>
     
                 <div>
-                    <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">Produits </h2>
-                    <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> Solutions</h2>
+                    
+                    <h2 class="mb-6   font-bold text-lg    text-white"> Solutions</h2>
     
                     <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline hidden lg:block md:block "> Resto App</a>
+                       
+                        <li class="mb-4 ">
+                            <a href="#" class="hover:underline">Resto </a>
                         </li>
-                        <li class="mb-4 block lg:hidden md:hidden">
-                            <a href="#" class="hover:underline"> Resto </a>
+                        <li class="mb-4  ">
+                            <a href="#" class="hover:underline">Resto Partenaire</a>
                         </li>
-                        <li class="mb-4 block lg:hidden md:hidden">
-                            <a href="#" class="hover:underline"> Resto Partenaire</a>
-                        </li>
+                        
     
                     </ul>
                 </div>
                 <div class="hidden lg:block md:block">
-                    <h2 class="mb-6   font-bold text-lg    text-white">Ressources</h2>
+                    <h2 class="mb-6   font-bold text-lg    text-white">Nous Recrutons</h2>
     
                     <ul class="text-gray-500 :text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Ressources</a>
+                            <a href="#" class="hover:underline">Recrutez Moi</a>
                         </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Ressources x</a>
-                        </li>
+                      
     
                     </ul>
                 </div>
@@ -686,7 +703,7 @@
                         <li class="mb-4">
                             <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                                 <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
+                                    <img src="img/googleplay-02.svg" class="w-7">
     
     
                                 </div>
@@ -699,7 +716,7 @@
                         <li class="mb-4">
                             <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
                                 <div class="mr-3">
-                                    <img src="img/appgallery-02.svg" class="w-7 ">
+                                    <img src="img/appgallery-03.svg" class="w-7 ">
     
                                 </div>
                                 <div>
@@ -752,7 +769,7 @@
                 </ul>
                 <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">Politique de cookies - Conditions d'utilisation - Politique de confidentialité</h1>
                 
-                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 Algera, Inc. Tous droits réservés.
+                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 Algera, Tous droits réservés.
                 </h1>
             </div>
     
@@ -776,7 +793,32 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
-    
+    <script>
+        contextMenuCatch = {
+        ie: function(){
+            if( document.all ){
+                return false;
+            }
+        },
+        netscape: function(e){
+            if( document.layers || (document.getElementById && !document.all) ){
+                if( e.which == 2 || e.which == 3 ){
+                    return false;
+                }
+            }
+        }
+    }
+     
+    if (document.layers) {
+        document.captureEvents(Event.mousedown);
+        document.onmousedown = contextMenuCatch.netscape;
+    } else {
+        document.onmouseup = contextMenuCatch.netscape;
+        document.oncontextmenu = contextMenuCatch.ie;
+    }
+    document.oncontextmenu = new Function("return false");
+    document.onselectstart = new Function("return false");
+    </script>
 
 </body>
 

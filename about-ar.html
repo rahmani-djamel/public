@@ -60,15 +60,15 @@ font-family: 'Tajawal', sans-serif;
 
 </head>
 
-<body class="bg-gradient-to-r from-[#F3F3F3] ">
+<body class="bg-gradient-to-r from-[#F3F3F3] " oncontextmenu="return false;">
 
 
     <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="index-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
 
 
-                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">ألجارا</span>
+                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">Algara</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
                 aria-controls="navbar-default" aria-expanded="false">
@@ -81,14 +81,34 @@ font-family: 'Tajawal', sans-serif;
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
 
                     <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
+                        <a href="about-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent"> من نحن</a>
+                        <a href="index-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent"> من نحن</a>
                     </li>
                     <li>
                         <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
                             style="">اتصل بنا</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">العربية<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+              </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                              <li>
+                                <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                              </li>
+                              <li>
+                                <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">العربية</a>
+                              </li>
+                              <li>
+                                <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Français</a>
+                              </li>
+                            </ul>
+                             
+                        </div>
                     </li>
 
                 </ul>
@@ -248,7 +268,7 @@ font-family: 'Tajawal', sans-serif;
 
         <div class="container   ">
             <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight   ">
-                مبادئ الشركة
+                قيم الشركة
             </p>
             <p class="mt-10 mb-10 text-lg font-medium  md:text-[20px] lg:text-[20px] leading-7 max-w-[600px]">
                 تركز شركة Algara على الجودة والدقة في تطوير حلولها الرقمية و تحرص على المنافسة و الحداثة لكي تقدم حلولًا سهلة، مريحة، وعملية.
@@ -262,7 +282,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2">الجودة</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">الجودة</h1>
 
                                 </div>
 
@@ -278,7 +298,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2">الحداثة</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0 ">الحداثة</h1>
 
                                 </div>
 
@@ -294,7 +314,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2">  السهولة </h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">  السهولة </h1>
 
                                 </div>
 
@@ -310,7 +330,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2"> المنافسة </h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0"> المنافسة </h1>
 
                                 </div>
 
@@ -326,7 +346,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2"> التشغيل </h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0"> العملية  </h1>
 
                                 </div>
 
@@ -342,7 +362,7 @@ font-family: 'Tajawal', sans-serif;
 
                             <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
                                 <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-2 rtl:lg:mr-2">الدقة</h1>
+                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">الدقة</h1>
 
                                 </div>
 
@@ -379,7 +399,7 @@ font-family: 'Tajawal', sans-serif;
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">200K
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">5k
                             <span class="text-[#5627FF]">+</span>
                         </h2>
                         <p class="text-[18px] font-medium -mt-2">المستخدمين</p>
@@ -388,15 +408,15 @@ font-family: 'Tajawal', sans-serif;
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">15
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">2
                             <span class="text-[#5627FF]">+</h2>
-                        <p class="text-[18px] font-medium -mt-2">المشاريع</p>
+                        <p class="text-[18px] font-medium -mt-2">الحلول </p>
                     </div>
                 </div>
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class=" mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">200
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">6
                             <span class="text-[#5627FF]">+</h2>
                         <p class="text-[18px] font-medium -mt-2">الموظفين</p>
                     </div>
@@ -404,9 +424,9 @@ font-family: 'Tajawal', sans-serif;
                 <div class=" md:w-1/4 sm:w-1/2 w-full">
                     <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">54
-                            <span class="text-[#5627FF]">%</h2>
-                        <p class=" text-[18px] font-medium -mt-2">متوسط النمو السنوي</p>
+                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">1
+                            
+                        <p class=" text-[18px] font-medium -mt-2">ولايات </p>
                     </div>
                 </div>
             </div>
@@ -471,13 +491,13 @@ font-family: 'Tajawal', sans-serif;
                     <div class="px-4 mx-auto  pt-5 md:py-0 lg:py-0  text-center md:text-left lg:text-left       ">
                         <img src="img/logo-02.svg" class="content-center center justify-center  mx-auto md:mx-0 lg:mx-0   mb-5  ">
                         <h3 class="text-[32px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold mb-5 text-right">
-                            تطبيق 
-                            <span class="hidden md:inline-flex lg:inline-flex">رستو</span>
+                       <span class="hidden md:inline-flex lg:inline-flex">تطبيق</span>    
+                            <span class="">ريستو</span>
                         </h3>
                         <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] text-right">لا شك أنك تناولت طعامك بالخارج، ولكنك تحتار في أي مطعم..</div>
 
                         <p class="mb-5 text-lg font-normal text-white mt-10 lg:text-xl     hidden lg:block md:block   text-right">متاح على</p>
-                        <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">أول تطبيق جوال للأوامر والحجز المسبق في الجزائر</p>
+                        <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم</p>
 
                         <div class="hidden md:inline-flex lg:inline-flex mt-5 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left " dir="ltr">
 
@@ -495,7 +515,7 @@ font-family: 'Tajawal', sans-serif;
                             </div>
                             <div class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                                 <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
+                                    <img src="img/googleplay-02.svg" class="w-7">
 
 
                                 </div>
@@ -520,7 +540,7 @@ font-family: 'Tajawal', sans-serif;
                         <div class="block md:hidden lg:hidden  mt-10 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left " dir="ltr">
                             <div class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
                                 <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
+                                    <img src="img/googleplay-02.svg" class="w-7">
 
 
                                 </div>
@@ -555,7 +575,7 @@ font-family: 'Tajawal', sans-serif;
                             </div>
 
                         </div>
-                        <button type="button" class="mt-10 text-[18px] md:text-[16px] lg:text-[16px] text-black md:text-[#5627FF] lg:text-[#5627FF]  bg-[#F6CB1F] md:bg-white lg:bg-white  focus:ring-4   font-bold rounded-full md:rounded-lg lg:rounded-lg      mb-2 w-full md:w-auto lg:w-auto   float-right "  style="padding:16px 16px 16px 16px; overflow: hidden ; white-space: nowrap; ">معرفة المزيد عن تطبيق رستو</button>
+                        <button type="button" class="mt-10 text-[18px] md:text-[16px] lg:text-[16px] text-black md:text-[#5627FF] lg:text-[#5627FF]  bg-[#F6CB1F] md:bg-white lg:bg-white  focus:ring-4   font-bold rounded-full md:rounded-lg lg:rounded-lg      mb-2 w-full md:w-auto lg:w-auto   float-right "  style="padding:16px 16px 16px 16px; overflow: hidden ; white-space: nowrap; ">معرفة المزيد عن تطبيق ريستو</button>
 <div style="clear: both;"></div>
                     </div>
                 </div>
@@ -573,185 +593,194 @@ font-family: 'Tajawal', sans-serif;
 
 
 
-
     <footer class="bg-[#05060F] :bg-gray-900 px-4  mt-32  mt-32 ">
-        <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
-            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
+            <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
+              <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
                 <div>
-                   
-                    <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> Algara</h2>
-                    
-                    
-                    <h2 class="block lg:hidden md:hidden mb-6   font-bold text-lg    text-white">Algara</h2>
-    
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class=" hover:underline">من نحن</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">اتصل بنا نحن</a>
-                        </li>
-                        <li class="mb-4 mt-24 mx-auto text-center  items-center hidden lg:block md:block ">
-                            <div class="flex     md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center">
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504"><path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"/></svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15"><path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z"/><path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z" clip-rule="evenodd"/></svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    <span class="sr-only">Facebook page</span>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    <span class="sr-only">Twitter page</span>
-                                </a>
-    
-                            </div>
-                        </li>
-    
-                    </ul>
-    
-                 
-                </div>
-    
-                <div>
-                    <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">المنتجات </h2>
-                    <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> المنتجات</h2>
-                   
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline hidden lg:block md:block "> تطبيق رستو</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline block lg:hidden md:hidden">لوريم</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline block lg:hidden md:hidden">لوريم x</a>
-                        </li>
-                         
-    
-                    </ul>
-                </div>
-                <div class="hidden lg:block md:block">
-                    <h2 class="mb-6   font-bold text-lg    text-white">الموارد</h2>
-    
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">لوريم</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">لوريم x</a>
-                        </li>
-    
-                    </ul>
-                </div>
-                <div class="hidden lg:block md:block">
-                    <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق رستو</h2>
-    
-    
-    
-                    <ul class="text-gray-500 :text-gray-400 font-medium" dir="ltr">
-                        <li class="mb-4">
-                            <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <svg viewBox="0 0 384 512" class="w-7">
-                                        <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-                                        />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <div class=" text-xs">Download on the</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-4">
-                            <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
-                                <div class="mr-3">
-                                    <img src="img/googleplay-02.png" class="w-7">
-    
-    
-                                </div>
-                                <div>
-                                    <div class="text-xs">GIT IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-4">
-                            <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <img src="img/appgallery-02.svg" class="w-7 ">
-    
-                                </div>
-                                <div>
-                                    <div class="text-xs">EXPLORE IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
-                                </div>
-                            </div>
-                        </li>
-    
-                    </ul>
-                </div>
-            </div>
-    
-       <div class="flex  block lg:hidden md:hidden   md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center justify-center  " style="text-align: center;margin: auto; margin-bottom: 24px">
-                      <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504"><path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"/></svg>
-                      </a>
-                      <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15"><path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z"/><path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z" clip-rule="evenodd"/></svg>
-                      </a>
-                      <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+        
+                  <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> Algara</h2>
+        
+        
+                  <h2 class="block lg:hidden md:hidden mb-6   font-bold text-lg    text-white">Algara</h2>
+        
+                  <ul class="text-gray-500 :text-gray-400 font-medium">
+                    <li class="mb-4">
+                      <a href="#" class=" hover:underline">من نحن</a>
+                    </li>
+                    <li class="mb-4">
+                      <a href="#" class="hover:underline">تواصل معنا           </a>
+                    </li>
+                    <li class="mb-4 mt-24 mx-auto text-center  items-center hidden lg:block md:block ">
+                      <div class="flex     md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center">
+                        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
+                            <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
+                            />
+                          </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
+                            <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
+                            <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
+                              clip-rule="evenodd" />
+                          </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
                           <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                              <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                  clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                              clip-rule="evenodd" />
                           </svg>
                           <span class="sr-only">Facebook page</span>
-                      </a>
-                      <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
                           <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                              <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                                  clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                              clip-rule="evenodd" />
                           </svg>
                           <span class="sr-only">Twitter page</span>
-                      </a>
-    
-                  </div>
-            <div class="w-full mx-auto max-w-screen-xl   md:flex items-center  justify-between mx-auto justify-center pb-10 justify-center content-center "  >
-    
+                        </a>
+        
+                      </div>
+                    </li>
+        
+                  </ul>
+        
+        
+                </div>
+        
+                <div>
+                  <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">حلولنا                </h2>
+                  <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> حلولنا               </h2>
+        
+                  <ul class="text-gray-500 :text-gray-400 font-medium">
+                    
+                    <li class="mb-4">
+                      <a href="#" class="hover:underline block  ">ريستو               </a>
+                    </li>
+                    <li class="mb-4">
+                      <a href="#" class="hover:underline block  ">ريستو للمطاعم</a>
+                    </li>
+                   
+        
+                  </ul>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف        </h2>
+        
+                  <ul class="text-gray-500 :text-gray-400 font-medium">
+                    <li class="mb-4">
+                      <a href="#" class="hover:underline">انضم لفريقنا</a>
+                    </li>
+                    
+        
+                  </ul>
+                </div>
+                <div class="hidden lg:block md:block">
+                  <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق ريستو</h2>
+        
+        
+        
+                  <ul class="text-gray-500 :text-gray-400 font-medium" dir="ltr">
+                    <li class="mb-4">
+                      <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+                        <div class="mr-3">
+                          <svg viewBox="0 0 384 512" class="w-7">
+                            <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                            />
+                          </svg>
+                        </div>
+                        <div>
+                          <div class=" text-xs">Download on the</div>
+                          <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="mb-4">
+                      <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
+                        <div class="mr-3">
+                          <img src="img/googleplay-02.svg" class="w-7">
+        
+        
+                        </div>
+                        <div>
+                          <div class="text-xs">GIT IT ON</div>
+                          <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="mb-4">
+                      <div class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+                        <div class="mr-3">
+                          <img src="img/appgallery-03.svg" class="w-7 ">
+        
+                        </div>
+                        <div>
+                          <div class="text-xs">EXPLORE IT ON</div>
+                          <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
+                        </div>
+                      </div>
+                    </li>
+        
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="flex  block lg:hidden md:hidden   md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center justify-center  "
+                style="text-align: center;margin: auto; margin-bottom: 24px">
+                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
+                    <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
+                    <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
+                    <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                  <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                    <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Facebook page</span>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+                  <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Twitter page</span>
+                </a>
+        
+              </div>
+              <div class="w-full mx-auto max-w-screen-xl   md:flex items-center  justify-between mx-auto justify-center pb-10 justify-center content-center ">
+        
                 <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 :text-gray-400 sm:mt-0 hidden md:inline-flex lg:inline-flex">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">شروط الخدمة</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات تعريف الارتباط</a>
-                    </li>
-    
+                  <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">شروط الاستخدام</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات الارتباط </a>
+                  </li>
+        
                 </ul>
-                <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">سياسة الخصوصية - شروط الخدمة - سياسة ملفات تعريف الارتباط</h1>
-                
-                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  ">© 2023 شركة الجزائر. جميع الحقوق محفوظة.
+                <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">سياسه الخصوصيه - شروط الاستخدام - سياسة ملفات الارتباط </h1>
+        
+                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  ">   © 2023 شركة ألجارا. جميع الحقوق محفوظة.
                 </h1>
+              </div>
+        
+        
             </div>
-    
-    
-        </div>
-    
-    
-    </footer>
-    
+        
+        
+          </footer>
     <!-- ************************************* FOOTER SECTION  *********************************-->
 
 
@@ -767,7 +796,32 @@ font-family: 'Tajawal', sans-serif;
 
 
     
-
+    <script>
+        contextMenuCatch = {
+        ie: function(){
+            if( document.all ){
+                return false;
+            }
+        },
+        netscape: function(e){
+            if( document.layers || (document.getElementById && !document.all) ){
+                if( e.which == 2 || e.which == 3 ){
+                    return false;
+                }
+            }
+        }
+    }
+     
+    if (document.layers) {
+        document.captureEvents(Event.mousedown);
+        document.onmousedown = contextMenuCatch.netscape;
+    } else {
+        document.onmouseup = contextMenuCatch.netscape;
+        document.oncontextmenu = contextMenuCatch.ie;
+    }
+    document.oncontextmenu = new Function("return false");
+    document.onselectstart = new Function("return false");
+    </script>
 </body>
 
 </html>
