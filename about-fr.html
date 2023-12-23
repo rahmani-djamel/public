@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
       <style>
       html {
         font-family: 'Inter', sans-serif;
@@ -67,8 +71,34 @@
             <a href="index-fr.html" class="flex items-center space-x-3 rtl:space-x-reverse">
     
     
-                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">Algara</span>
+                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white " style=" font-family: 'Lato','Inter', sans-serif;">Algara</span>
             </a>
+            <div class="flex md:order-1    ">
+            
+                    <div class="flex inline-block md:hidden lg:hidden">
+                          
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Fr
+                              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                              </svg>
+                            </button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                  <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">En</a>
+                                </li>
+                                <li>
+                                  <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ar</a>
+                                </li>
+                                <li>
+                                  <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Fr</a>
+                                </li>
+                              </ul>
+                
+                            </div>
+                          
+                    </div>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
                 aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
@@ -76,7 +106,8 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            </div>
+            <div class="hidden w-full md:block md:w-auto md:order-2" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
     
                     <li>
@@ -89,7 +120,7 @@
                         <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
                             style="">Contactez-nous</a>
                     </li>
-                    <li>
+                    <li class="hidden md:inline-block lg:inline-block">
                       <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Français
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
@@ -271,7 +302,7 @@
 
         <div class="container   ">
             <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight   ">
-                Principes de l'entreprise
+                Nos Valeurs
             </p>
             <p class="mt-10 mb-10 text-lg font-medium  md:text-[20px] lg:text-[20px] leading-7 max-w-[700px]">
                 Algara se concentre sur la qualité et la précision dans le développement de ses solutions
@@ -669,7 +700,7 @@
     
                     </ul>
                 </div>
-                <div class="hidden lg:block md:block">
+                <div class=" ">
                     <h2 class="mb-6   font-bold text-lg    text-white">Nous Recrutons</h2>
     
                     <ul class="text-gray-500 :text-gray-400 font-medium">
@@ -769,7 +800,7 @@
                 </ul>
                 <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">Politique de cookies - Conditions d'utilisation - Politique de confidentialité</h1>
                 
-                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 Algera, Tous droits réservés.
+                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 Algara, Tous droits réservés.
                 </h1>
             </div>
     

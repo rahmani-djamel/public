@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
       <style>
       html {
 font-family: 'Tajawal', sans-serif;
@@ -62,59 +66,89 @@ font-family: 'Tajawal', sans-serif;
 
 <body class="bg-gradient-to-r from-[#F3F3F3] " oncontextmenu="return false;">
 
-
     <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-
-
-                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white ">Algara</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
-                aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
-
-                    <li>
-                        <a href="about-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
-                    </li>
-                    <li>
-                        <a href="index-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent"> من نحن</a>
-                    </li>
-                    <li>
-                        <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
-                            style="">اتصل بنا</a>
-                    </li>
-                    <li>
-                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">العربية<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-              </svg></button>
+          <a href="index-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+    
+    
+            <span class="self-center text-3xl font-bold whitespace-nowrap text-[#5627FF] :text-white " style=" font-family: 'Lato','Inter', sans-serif;">Algara</span>
+          </a>
+         
+          <div class="flex md:order-1    ">
+            
+                <div class="flex inline-block md:hidden lg:hidden">
+                          
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Ar
+                          <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                          </svg>
+                        </button>
                         <!-- Dropdown menu -->
                         <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                              <li>
-                                <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
-                              </li>
-                              <li>
-                                <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">العربية</a>
-                              </li>
-                              <li>
-                                <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Français</a>
-                              </li>
-                            </ul>
-                             
+                          <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                            <li>
+                              <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">En</a>
+                            </li>
+                            <li>
+                              <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ar</a>
+                            </li>
+                            <li>
+                              <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Fr</a>
+                            </li>
+                          </ul>
+            
                         </div>
-                    </li>
-
-                </ul>
-            </div>
+                      
+                </div>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
         </div>
-    </nav>
+          <div class="hidden w-full md:block md:w-auto    md:order-2" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
+    
+              <li>
+                <a href="about-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
+              </li>
+              <li>
+                <a href="index-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">
+                من نحن</a>
+              </li>
+              <li>
+                <a href="#" class="  text-white bg-[#5627FF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
+                  style="">تواصل معنا</a>
+              </li>
+              <li class="hidden md:inline-block lg:inline-block">
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">العربية
+                  <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                    </li>
+                    <li>
+                      <a href="index-ar.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">العربية</a>
+                    </li>
+                    <li>
+                      <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Français</a>
+                    </li>
+                  </ul>
+    
+                </div>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
 
@@ -136,12 +170,11 @@ font-family: 'Tajawal', sans-serif;
                     <img class="  animate__animated animate__fadeInRight animate__delay-.5s" src="img/ar_hero.svg" alt="" />
                 </div>
                 <p class="mt-10 text-lg font-medium md:text-[20px] lg:text-[20px] leading-7 w-auto md:w-[500px] lg:w-[500px]">
-                    Algara شركة ناشئة جزائرية تنشط في مجال التكنولوجيا تم تأسيسها بهدف حل المشاكل اليومية التي يعاني منها الأفراد و تسهيل مهامهم من خلال تقديمها لحلول رقمية خاصة
-                </p>
+                    ألجارا شركة ناشئة جزائرية تنشط في مجال التكنولوجيا تم تأسيسها بهدف حل المشاكل اليومية التي يعاني منها الأفراد و تسهيل مهامهم من خلال تقديمها لحلول رقمية خاصة                </p>
                 <div class="flex gap-16 mt-10 hidden md:block lg:block">
 
                     <button class="  text-[16px] flex items-center  rounded-xl font-bold text-white  bg-[#5627FF] " style="padding:16px 32px 16px 32px">
-                        اتصل بنا </button>
+                        تواصل معنا </button>
 
                 </div>
 
@@ -163,11 +196,9 @@ font-family: 'Tajawal', sans-serif;
                 أهداف الشركة
             </p>
             <p class="mx-auto mt-5 mb-5 text-lg font-medium md:text-[20px] lg:text-[20px] leading-7 max-w-auto md:max-w-[650px] lg:max-w-[650px]">
-                 تهدف شركة <span class="text-[#5627FF] md:text-[#05060F] lg:text-[#05060F]">Algara</span> 
-            
- لجعل الحياة اليومية أسهل و ذلك من خلال فهمها الجيد لاحتياجات عملائها و ما يعيقهم في تلبية هذه الاحتياجات, فتقدم الشركة خدمات لتسهيل وتبسيط الوصول لهذه الحاجيات و تيسير تلبيتها.
-
-                </p>
+                 تهدف شركة <span class="text-[#5627FF] md:text-[#05060F] lg:text-[#05060F]">ألجارا</span> 
+                    لجعل الحياة اليومية أسهل و ذلك من خلال فهمها الجيد لاحتياجات عملائها و ما يعيقهم في تلبية هذه الاحتياجات, فتقدم الشركة خدمات لتسهيل وتبسيط الوصول لهذه الحاجيات و تيسير تلبيتها.
+            </p>
 
 
         </div>
@@ -271,8 +302,7 @@ font-family: 'Tajawal', sans-serif;
                 قيم الشركة
             </p>
             <p class="mt-10 mb-10 text-lg font-medium  md:text-[20px] lg:text-[20px] leading-7 max-w-[600px]">
-                تركز شركة Algara على الجودة والدقة في تطوير حلولها الرقمية و تحرص على المنافسة و الحداثة لكي تقدم حلولًا سهلة، مريحة، وعملية.
-                  </p>
+                تركز شركة ألجارا على الجودة والدقة في تطوير حلولها الرقمية و تحرص على المنافسة و الحداثة لكي تقدم حلولًا سهلة، مريحة، وعملية.              </p>
             <section class="   w-full justify-between   py-12   ">
                 <div class="     grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5   gap-3 md:gap-5 lg:gap-5    mx-auto item-center max-w-4xl">
 
@@ -442,7 +472,7 @@ font-family: 'Tajawal', sans-serif;
                 <img src="img/quote-about-01.svg" class="-rotate-[130deg]    float-left w-8 h-8 md:w-12 md:h-12 lg:w-12 lg:h-12 -mb-5  -ml-5 md:ml-16 lg:ml-16">
                 <div style="clear: both;"></div>
                 <p class="mt-5 text-sm md:text-[20px] lg:text-[20px] leading-7 w-auto md:w-[75%] lg:w-[75%] mx-auto    ">
-                    يجب معرفة أننا قمنا بتأسيس الشركة لتقديم حلول رقمية لحل المشاكل الموجودة لدى عملائنا. نحن نعلم جيدًا أن نجاحنا في السوق يعتمد على القيمة التي نقدمها من خلال خدماتنا و مدى تلبية هذه الخدمات لاحتياجات العملاء. لكي ننجح، يجب أن نقدم ميزتنا التنافسية و نوفر تجربة خاصة و فريدة من نوعها لعملائنا، والأهم من ذلك هو أن نضع رضى عملائنا أولويتنا الأولى. هذه هي الفلسفة التي توجه شركة Algara.
+                    يجب معرفة أننا قمنا بتأسيس الشركة لتقديم حلول رقمية لحل المشاكل الموجودة لدى عملائنا. نحن نعلم جيدًا أن نجاحنا في السوق يعتمد على القيمة التي نقدمها من خلال خدماتنا و مدى تلبية هذه الخدمات لاحتياجات العملاء. لكي ننجح، يجب أن نقدم ميزتنا التنافسية و نوفر تجربة خاصة و فريدة من نوعها لعملائنا، والأهم من ذلك هو أن نضع رضى عملائنا أولويتنا الأولى. هذه هي الفلسفة التي توجه شركة ألجارا.
                 </p>
                 <div style="clear: both;"></div>
 
@@ -491,10 +521,14 @@ font-family: 'Tajawal', sans-serif;
                     <div class="px-4 mx-auto  pt-5 md:py-0 lg:py-0  text-center md:text-left lg:text-left       ">
                         <img src="img/logo-02.svg" class="content-center center justify-center  mx-auto md:mx-0 lg:mx-0   mb-5  ">
                         <h3 class="text-[32px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold mb-5 text-right">
-                       <span class="hidden md:inline-flex lg:inline-flex">تطبيق</span>    
-                            <span class="">ريستو</span>
+                       <span class="hidden md:inline-flex lg:inline-flex">تطبيق ريستو  </span>    
+                           
                         </h3>
-                        <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] text-right">لا شك أنك تناولت طعامك بالخارج، ولكنك تحتار في أي مطعم..</div>
+                        <h3 class="block md:hidden lg:hidden text-[32px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold mb-5 text-center">
+                            <span class=""> ريستو  </span>    
+                                
+                             </h3>
+                        <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] text-right">  التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم </div>
 
                         <p class="mb-5 text-lg font-normal text-white mt-10 lg:text-xl     hidden lg:block md:block   text-right">متاح على</p>
                         <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم</p>
@@ -581,7 +615,7 @@ font-family: 'Tajawal', sans-serif;
                 </div>
 
                 <div class=" hidden lg:block md:block flex items-center justify-center w-full h-full lg:w-1/2">
-                    <img class="    h-full mx-auto rounded-md lg:max-w-2xl" src="img/app-cap-09.svg" alt="glasses photo">
+                    <img class="    h-full mx-auto rounded-md lg:max-w-2xl" src="img/app-cap-09-ar.svg" alt="glasses photo">
                 </div>
             </div>
         </div>
@@ -664,7 +698,7 @@ font-family: 'Tajawal', sans-serif;
         
                   </ul>
                 </div>
-                <div class="hidden lg:block md:block">
+                <div class=" ">
                   <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف        </h2>
         
                   <ul class="text-gray-500 :text-gray-400 font-medium">
