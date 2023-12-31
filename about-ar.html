@@ -1,875 +1,884 @@
 <!doctype html>
-<html lang="ar" class="light" dir="rtl" data-theme="light">
+<html lang="en" class="light" dir="rtl">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="description">
-    <title>Algara</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="description">
+  <title>Algara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
-    <style>
-        html {
-            font-family: 'Tajawal', sans-serif;
-            color: #05060F
-        }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
 
-        body {
-            font-family: 'Tajawal', sans-serif;
-            color: #05060F
-        }
-    </style>
-    <script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-family: 'Tajawal', sans-serif;
+      color: #05060F
+    }
 
-        tailwind.config = {
+    body {
+      font-family: 'Tajawal', sans-serif;
+      color: #05060F
+    }
+  </style>
 
-            theme: {
-                extend: {
-                    fontFamily: {
-                        inter: ['Inter', 'sans-serif'],
-                    },
-                    animation: {
-                        'infinite-scroll': 'infinite-scroll 25s linear infinite',
-                        'infinite-scroll1': 'infinite-scroll1 25s linear infinite',
-
-                    },
-                    keyframes: {
-                        'infinite-scroll': {
-                            from: { transform: 'translateX(0)' },
-                            to: { transform: 'translateX(-100%)' },
-                        },
-                        'infinite-scroll1': {
-                            from: { transform: 'translateX(-100%)' },
-                            to: { transform: 'translateX(0)' },
-                        }
-                    }
-                },
-            },
-        };
-    </script>
 
 
 
 
 </head>
+<!--<body class=" bg-gradient-to-t from-[#F3F3F3] ">-->
 
-<body class="bg-gradient-to-r from-[#F3F3F3] " oncontextmenu="return false;" data-theme="light">
+<body class="    " oncontextmenu="return false;">
 
-    <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-
-
-                <span class="self-center text-3xl font-bold whitespace-nowrap text-[#168EEA] :text-white " style=" font-family: 'Lato','Inter', sans-serif;">Algara</span>
-            </a>
-
-            <div class="flex md:order-1    ">
+  <nav class="  bg-white border border-b-gray-200 :bg-gray-900 fixed top-0 left-0 right-0 z-40">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="about-ar.html" class="flex items-center space-x-3 rtl:space-x-reverse">
 
 
-                <div class="flex inline-block md:hidden lg:hidden">
+            <span class="self-center text-3xl font-bold whitespace-nowrap text-[#168EEA] :text-white " style=" font-family: 'Lato','Inter', sans-serif;">Algara</span>
+        </a>
 
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  ">Ar
+        <div class="flex md:order-1    ">
+
+
+            <div class="flex inline-block md:hidden lg:hidden">
+
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  ">Ar
+                    <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                    </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
+                    <ul class="py-2 text-sm text-gray-700  " aria-labelledby="dropdownLargeButton">
+                        <li>
+                            <a href="about-en.html" class="block px-4 py-2 hover:bg-gray-100 ">En</a>
+                        </li>
+                        <li>
+                            <a href="about-ar.html" class="block px-4 py-2 hover:bg-gray-100 ">Ar</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="block px-4 py-2 hover:bg-gray-100 ">Fr</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+        </div>
+        <div class="hidden w-full md:block md:w-auto    md:order-2" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
+
+                <li>
+                    <a href="index-ar.html#oursolutions" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
+                </li>
+                <li>
+                    <a href="index-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">
+                        من نحن</a>
+                </li>
+                <li>
+                    <a href="mailto:contact@algara.company?" class="  text-white bg-[#168EEA] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
+                        style="">تواصل معنا</a>
+                </li>
+                <li class="hidden md:inline-block lg:inline-block">
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar2" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  :text-white md: :hover:text-blue-500  :focus:text-white  :border-gray-700  :hover:bg-gray-700 md: :hover:bg-transparent">العربية
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                         </svg>
                     </button>
                     <!-- Dropdown menu -->
-                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
-                        <ul class="py-2 text-sm text-gray-700  " aria-labelledby="dropdownLargeButton">
+                    <div id="dropdownNavbar2" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44  :bg-gray-700  :divide-gray-600">
+                        <ul class="py-2 text-sm text-gray-700  :text-gray-400" aria-labelledby="dropdownLargeButton">
                             <li>
-                                <a href="about.html" class="block px-4 py-2 hover:bg-gray-100 ">En</a>
+                                <a href="about-en.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">English</a>
                             </li>
                             <li>
-                                <a href="about-ar.html" class="block px-4 py-2 hover:bg-gray-100 ">Ar</a>
+                                <a href="about-ar.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">العربية</a>
                             </li>
                             <li>
-                                <a href="about-fr.html" class="block px-4 py-2 hover:bg-gray-100 ">Fr</a>
+                                <a href="about.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">Français</a>
                             </li>
                         </ul>
 
                     </div>
+                </li>
 
-                </div>
-                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 :text-gray-400 :hover:bg-gray-700 :focus:ring-gray-600"
-                    aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden w-full md:block md:w-auto    md:order-2" id="navbar-default">
-                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white :bg-gray-800 md::bg-gray-900 :border-gray-700">
-
-                    <li>
-                        <a href="about-ar.html#oursolutions" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 :text-white md::hover:text-blue-500 :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">حلولنا</a>
-                    </li>
-                    <li>
-                        <a href="about-ar.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 :text-white md::hover:text-blue-500  :hover:bg-gray-700 :hover:text-white md::hover:bg-transparent">
-                            من نحن</a>
-                    </li>
-                    <li>
-                        <a href="mailto:contact@algara.company?" class="  text-white bg-[#168EEA] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mt-0   sm:mt-24"
-                            style="">تواصل معنا</a>
-                    </li>
-                    <li class="hidden md:inline-block lg:inline-block">
-                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar2" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  :text-white md: :hover:text-blue-500  :focus:text-white  :border-gray-700  :hover:bg-gray-700 md: :hover:bg-transparent">العربية
-                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                            </svg>
-                        </button>
-                        <!-- Dropdown menu -->
-                        <div id="dropdownNavbar2" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44  :bg-gray-700  :divide-gray-600">
-                            <ul class="py-2 text-sm text-gray-700  :text-gray-400" aria-labelledby="dropdownLargeButton">
-                                <li>
-                                    <a href="about.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">English</a>
-                                </li>
-                                <li>
-                                    <a href="about-ar.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">العربية</a>
-                                </li>
-                                <li>
-                                    <a href="about-fr.html" class="block px-4 py-2 hover:bg-gray-100  :hover:bg-gray-600  :hover:text-white">Français</a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+  <!-- ************************************* BEGIN SECTION 01 *********************************-->
 
 
+  <section class="your-section-class bg-right bg-no-repeat bg-white  bg-[url('img/back-01.svg')]  ">
 
 
+    <div class="px-4 mx-auto    text-center py-32 md:py-32  lg:py-32 content-center">
+      <img src="img/logo-resto.svg" class="content-center center justify-center mx-auto w-[222px] md:w-[605px] lg:w-[605px] mb-10 md:mb-24  lg:mb-24">
+      <h1 class="  mb-5 text-[28px]     text-[#05060F] md:text-6xl lg:text-6xl w-auto  md:w-[700px] lg:w-[700px]  justify-center mx-auto font-bold ">ﺳﺌﻤﺖ ﻣﻦ
+        <span class="text-[#F6CB1F]" > الانتظار </span> ﻓﻲ المطاعم
+        <span class="text-[#F6CB1F]"> ﻟﺘﺤﻀﻴﺮ </span> ﻃﻠﺒﻴﺘﻚ ؟</h1>
 
-    <!-- ************************************* BEGIN SECTION 1 *********************************-->
+      <p class="mb-4  md:mb-8 lg:mb-8  mt-16 text-base  text-[#05060F] lg:text-xl sm:px-16 lg:px-48">
+        تطبيق ريستو هو الحل </p>
+      <p class="mb-5 text-lg font-normal text-[#05060F] lg:text-xl sm:px-16 lg:px-48 hidden lg:block md:block">متاح على</p>
+      <div dir="ltr" class="flex flex-col d-flex mt-5 md:mt-0 lg:mt-0  space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left ">
+        <div class=" space-x-3 flex">
+          <a href="https://www.apple.com/fr/app-store/" class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center   ">
+            <div class="mr-3">
+              <svg viewBox="0 0 384 512" class="w-7">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class=" text-xs">Download on the</div>
+              <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
+            </div>
+          </a>
+          <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center    ">
+            <div class="mr-3">
+              <img src="img/googleplay.svg" class="w-7">
+
+
+            </div>
+            <div>
+              <div class="text-xs">GIT IT ON</div>
+              <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
+            </div>
+          </a>
+
+
+        </div>
+
+        <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[155px] h-[50px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-[#F6CB1F] text-white rounded-xl items-center justify-center   ">
+          <div class="mr-3">
+            <img src="img/appgallery-03.svg" class="w-7">
+
+          </div>
+          <div>
+            <div class="text-xs">EXPLORE IT ON</div>
+            <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+
+  </section>
+  <!-- ************************************* END SECTION 01 *********************************-->
+
+  <!-- ************************************* BEGIN SECTION 02 *********************************-->
+  <div class=" ">
     <!-- component -->
-    <div class=" md:flex container mx-auto   px-4      justify-center     max-w-7xl        ">
+    <div class="px-4 mt-0 md:mt-16 lg:mt-16 mb-16 ">
 
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 mt-32 md:gap-20  ">
-            <div class="content justify-center justify-between justify-start my-auto">
 
-                <p class="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight   sm:mt-0 ">
-                    حياة يومية
-                    <span class="text-[#168EEA]">أسهل</span>
-                </p>
-                <div class="relative sm:mt-0 mt-10 px-6 sm:px-0 block md:hidden lg:hidden">
+      <div class="md:flex container mx-auto mt-5 pt-4 pl-6 pr-6  md:pl-16 md:pr-8  text-white justify-center bg-[#090029] rounded-[40px] max-w-7xl">
 
-                    <img class="  animate__animated animate__fadeInRight animate__delay-.5s" src="img/ar_hero.svg" alt="" />
-                </div>
-                <p class="mt-10 text-lg font-medium md:text-[20px] lg:text-[20px] leading-7 w-auto md:w-[500px] lg:w-[500px]">
-                    ألجارا شركة ناشئة جزائرية تنشط في مجال التكنولوجيا تم تأسيسها بهدف حل المشاكل اليومية التي يعاني منها الأفراد و تسهيل مهامهم
-                    من خلال تقديمها لحلول رقمية خاصة </p>
-                <div class="flex gap-16 mt-10 hidden md:block lg:block">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-16   ">
+          <div class="content">
 
-                    <button class="  text-[16px] flex items-center  rounded-xl font-bold text-white  bg-[#168EEA] " style="padding:16px 32px 16px 32px">
-                       <a href="mailto:contact@algara.company?">تواصل معنا </a> </button>
-
-                </div>
-
-            </div>
-            <div class=" sm:mt-0 mt-10 px-6 sm:px-0 hidden md:block lg:block ">
-
-                <img class="  animate__animated animate__fadeInRight animate__delay-.5s" src="img/about-pc-arabic.svg" alt="" />
-            </div>
-        </div>
-    </div>
-    <!-- ************************************* END SECTION 1 *********************************-->
-    <!-- ************************************* BEGIN SECTION 2 *********************************-->
-
-    <div class="          ">
-
-        <div class="  px-4 container text-center mx-auto  justify-center  mt-32  mb-16  max-w-7xl  ">
-            <img src="img/goal.svg" class="mx-auto mb-5">
-            <p class="mx-auto   text-[40px] md:text-[58px] lg:text-[58px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
-                أهداف الشركة
+            <p class="text-[32px]  mt-5 font-bold leading-tight   ">
+              تطبيق ريستو
             </p>
-            <p class="mx-auto mt-5 mb-5 text-lg font-medium md:text-[20px] lg:text-[20px] leading-7 max-w-auto md:max-w-[650px] lg:max-w-[650px]">
-                تهدف شركة
-                <span class="text-[#168EEA] md:text-[#05060F] lg:text-[#05060F]">ألجارا</span>
-                لجعل الحياة اليومية أسهل و ذلك من خلال فهمها الجيد لاحتياجات عملائها و ما يعيقهم في تلبية هذه الاحتياجات, فتقدم الشركة خدمات
-                لتسهيل وتبسيط الوصول لهذه الحاجيات و تيسير تلبيتها.
+            <p class="mt-5 text-sm md:text-[20px] lg:text-[20px] leading-7">
+              هل سئمتَ من الانتظار في الطابور لوجبتك ؟ ريستو هو الحل! يسمح لك تطبيق ريستو بتقديم طلبيتك مباشرة من هاتفك، مما يتيح لك تجاوز
+              الطابور و البدء في الاستمتاع بوجبتك بشكل أسرع. بالإضافة إلى ذلك، يمكنك تصفح الأطباق والوجبات المُقدَّمة من
+              طرف المطعم، و استكشاف و إيجاد المطعم المناسب لك، و الحصول على عروض حصرية، كل ذلك بضغطة زر. و هذا ليس كل شيء
+              ! يتيح لك ريستو أيضًا حجز طاولتك مسبقًا في المطاعم، مما يضمن تجربة طعام ممتعة و خالية من الإجهاد، و المزيد
+              من الخيارات بانتظارك !
             </p>
 
 
+          </div>
+          <div class="relative mx-auto sm:mt-0 pt-10   sm:px-0">
+
+            <img class=" w-[320px] md:w-[300px] lg:w-[300px] animate__animated animate__fadeInRight animate__delay-.5s " src="img/app-cap-06.svg"
+              alt="" />
+          </div>
         </div>
-
-        <!-- ************************************* BEGIN SECTION 3 *********************************-->
-
-
-        <div class="w-full  mx-auto mb-5 z-0 " dir="ltr">
-            <div class="text-center">
-
-                <!-- Logo Carousel animation -->
-                <div x-data="{}" x-init="$nextTick(() => {
-                        let ul = $refs.logos;
-                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
-                        ul.nextSibling.setAttribute('aria-hidden', 'true');
-                    })" class="w-full inline-flex flex-nowrap overflow-hidden  ">
-                    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:h-auto [&_img]:min-w-[150px] md:[&_img]:min-w-[200px] lg:[&_img]:min-w-[200px]   animate-infinite-scroll">
-                        <li>
-                            <img src="img/swiper-01-ar.png" alt="Facebook" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-02-ar.png" alt="Disney" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-03-ar.png" alt="Airbnb" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-04-ar.png" alt="Apple" class="  " />
-                        </li>
-
-
-                    </ul>
-                </div>
-                <!-- End: Logo Carousel animation -->
-
-            </div>
-
-        </div>
-
-        <!-- ************************************* END SECTION 3 *********************************-->
-        <!-- ************************************* BEGIN SECTION 4 *********************************-->
-
-        <div class="w-full  mx-auto z-0  " dir="ltr">
-            <div class="text-center">
-
-                <!-- Logo Carousel animation -->
-                <div x-data="{}" x-init="$nextTick(() => {
-                            let ul = $refs.logos;
-                            ul.insertAdjacentHTML('afterend', ul.outerHTML);
-                            ul.nextSibling.setAttribute('aria-hidden', 'true');
-                        })" class="w-full inline-flex flex-nowrap overflow-hidden  ">
-                    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-3 [&_img]:h-auto [&_img]:min-w-[150px] md:[&_img]:min-w-[200px] lg:[&_img]:min-w-[200px]    animate-infinite-scroll1">
-                        <li>
-                            <img src="img/swiper-01-ar.png" alt="Facebook" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-02-ar.png" alt="Disney" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-03-ar.png" alt="Airbnb" class="  " />
-                        </li>
-                        <li>
-                            <img src="img/swiper-04-ar.png" alt="Apple" class="  " />
-                        </li>
-
-
-                    </ul>
-                </div>
-                <!-- End: Logo Carousel animation -->
-
-            </div>
-
-        </div>
-
-        <!-- ************************************* END SECTION 4 *********************************-->
-    </div>
-    <!-- ************************************* END SECTION 2 *********************************-->
-
-    <!-- ************************************* BEGIN SECTION 004 *********************************-->
-    <div class=" w-full mt-8  block md:hidden lg:hidden">
-
-        <img class="   w-full " src="img/vector-phone.svg" alt="" />
+      </div>
     </div>
 
-    <!-- ************************************* END SECTION 004 *********************************-->
+    <!-- ************************************* END SECTION 02 *********************************-->
+    <!-- ************************************* BEGIN SECTION 03 *********************************-->
 
-    <!-- ************************************* BEGIN SECTION 05 *********************************-->
+    <div class="container  mt-0 md:mt-24 lg:mt-24 mb-16 md:mb-24 lg:mb-24 px-4 justify-center mx-auto max-w-7xl  ">
+      <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
+        مميزات و خصائص تطبيق ريستو
 
-    <div class="  container mx-auto   px-4   mt-0 md:mt-32 lg:mt-32   justify-center     max-w-7xl  ">
+      </p>
+      <p class="mt-5 text-[16px] md:text-[25px] lg:text-[25px] leading-7 max-w-[600px]">
+        يقدم لك تطبيق ريستو العديد من المميزات والخصائص لكي تحظى بتجربة تناول طعام مثالية و غير مسبوقة
+      </p>
+    </div>
+    <!-- ************************************* END SECTION 03 *********************************-->
+    <div class=" bg-[#F3F3F3] ">
+      <!-- ************************************* BEGIN SECTION 04 *********************************-->
+      <!-- component -->
 
-        <div class="container   ">
-            <p class="text-[32px] md:text-[48px] lg:text-[48px] font-bold lead-xl bold leading-tight   ">
-                قيم الشركة
-            </p>
-            <p class="mt-10 mb-10 text-lg font-medium  md:text-[20px] lg:text-[20px] leading-7 max-w-[600px]">
-                تركز شركة ألجارا على الجودة والدقة في تطوير حلولها الرقمية و تحرص على المنافسة و الحداثة لكي تقدم حلولًا سهلة، مريحة، وعملية.
-                </p>
-            <section class="   w-full justify-between   py-12   ">
-                <div class="     grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5   gap-3 md:gap-5 lg:gap-5    mx-auto item-center max-w-4xl">
+      <div class="flex flex-col     px-4 justify-center mx-auto max-w-7xl     ">
 
-                    <div class='  flex flex-row mx-auto md:mx-0 lg:mx-0 mb-5 md:mb-0 lg:mb-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-06.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] lg:h-[64px]  mx-auto ">
+        <div class="flex flex-col px-2 py-12 md:px-4 md:flex-row items-center  grid gap-x-12 gap-y-16 md:grid-cols-5 lg:grid-cols-5 ">
+          <div class="  order-2 md:order-none lg:order-none md:col-span-3 lg:col-span-3    rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
 
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">الجودة</h1>
+            <div class="px-5 md:px-9 lg:px-9 pt-10  mb-7 py-6 md:py-10 lg:py-10 rounded-b-lg ">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">‫قم
+                  <span class="text-[#F6CB1F]"> بتخصيص</span> طلبيتك‬
 
-                                </div>
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7   ">
+                  أختر طلبيتك و خصصها في ثوان و راح تلقاها جاهزة فور وصولك للمطعم بفضل خدمة تسبيق الطلبية الجديدة. مع ريستو - وداعا للانتظار
+                </div>
+              </div>
 
+            </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hidden md:block lg:block"></div>
-
-                    <div class='   flex flex-row mx-auto md:mx-0 lg:mx-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-02.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] mx-auto ">
-
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0 ">الحداثة</h1>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hidden md:block lg:block "></div>
-
-                    <div class='   flex flex-row mx-auto md:mx-0 lg:mx-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-03.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] mx-auto ">
-
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">
-                                    السهولة </h1>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class='   flex flex-row mx-auto md:mx-0 lg:mx-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-01.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] mx-auto">
-
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">
-                                    المنافسة </h1>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hidden md:block lg:block"></div>
-
-                    <div class='    flex flex-row mx-auto md:mx-0 lg:mx-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-05.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] mx-auto  ">
-
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">
-                                    العملية </h1>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hidden md:block lg:block"></div>
-
-                    <div class='  flex flex-row   mx-auto md:mx-0 lg:mx-0 '>
-                        <div class="flex flex-col md:flex-row     ">
-                            <img src="img/company-04.svg" alt="" class="w-[50px] h-[50px] md:w-[64px] md:h-[64px] lg:w-[64px] mx-auto">
-
-                            <div class="    space-y-4 flex flex-col justify-center items-center space-x-3">
-                                <div class="flex flex-col justify-center">
-                                    <h1 class="text-center md:text-left text-[15px] md:text-[20px] lg:text-[20px] font-bold text-gray-900 ml-0 ltr:md:ml-2 ltr:lg:ml-2 rtl:md:mr-4 rtl:lg:mr-4 mt-2 md:mt-0 lg:mt-0">الدقة</h1>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
+            <img src="img/app-cap-01.svg" alt="Featured Image 1 " class="hidden lg:block md:block   w-[320px] md:min-w-auto lg:w-auto  h-fill    rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+            <img src="img/Customize-order.svg" alt="Featured Image 1 " class=" block lg:hidden md:hidden  px-5 md:px-0 lg:px-0 w-[320px] md:min-w-auto lg:w-auto  h-fill    rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
 
 
 
+          </div>
+          <div class=" order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-02.svg')] bg-cover bg-white h-full">
+            <div class="px-5 md:px-9 lg:px-9  pt-10 mb-8 py-6 md:py-6 lg:py-6   rounded-b-lg">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
+                  <span class="text-[#F6CB1F]">إستكشف </span>
+                  المطاعم
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  إستكشف و تعرف على المطاعم بمختلف أنواعها في مدينتك او في وجهتك القادمة, و اختار المطعم اللي يناسبك
 
+                </div>
+              </div>
+
+            </div>
+
+            <img src="img/app-cap-new-011.svg" alt="Featured Image 1 " class=" hidden lg:block md:block  px-5 md:px-0 lg:px-0 w-[320px] md:w-auto lg:w-auto   h-fill rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+            <img src="img/app-cap-new-011-phone.svg" alt="Featured Image 1 " class=" block lg:hidden md:hidden  px-5 md:px-0 lg:px-0 w-[320px] md:min-w-auto lg:w-auto  h-fill    rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+
+
+          </div>
+        </div>
+      </div>
+      <!-- ************************************* END SECTION 04 *********************************-->
+      <!-- ************************************* BEGIN SECTION 05 *********************************-->
+      <div class="flex flex-col  py-16  py-4 px-4 justify-center mx-auto max-w-7xl     ">
+
+        <div class="flex flex-col px-2  md:px-4 md:flex-row items-center  grid gap-x-12 gap-y-16 md:grid-cols-5 lg:grid-cols-5 ">
+          <div class="order-2 md:order-none lg:order-none  md:col-span-3 lg:col-span-3  rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-02.svg')] bg-cover bg-white h-full">
+
+            <div class="px-5 md:px-9 lg:px-9 pt-10  pb-14   rounded-b-lg ">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
+                  <span class="text-[#F6CB1F]"> ‫الحجز </span>
+                  أصبح اسهل‬
+
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  غداء عمل او عشاء عائلي, مهما كان أتهنى من قلق الجلوس و احجز طاولتك مع ريستو. الحجز ولا أسهل و أسرع
 
 
                 </div>
-            </section>
+              </div>
+
+            </div>
+
+            <img src="img/app-cap-08.svg" alt="Featured Image 1 " class=" hidden lg:block md:block pb-0 mb-0  w-[320px] md:min-w-auto lg:w-auto  rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+            <img src="img/Easier-Reservation.svg" alt="Featured Image 1 " class="block lg:hidden md:hidden pb-0 mb-0 px-5 md:px-0 lg:px-0 w-[320px] md:min-w-auto lg:w-auto  rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+
+
+          </div>
+          <div class=" order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
+            <div class="px-5 md:px-9 pt-10 pb-14   rounded-b-lg">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫تجنب
+                  <span class="text-[#F6CB1F]">البحث‬</span>
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  تجنب البحث و قم بالوصول الى المطاعم القريبة منك أينما كنت و في أي وقت بضغطة زر مع الميزة الجديدة للبحث عن المطاعم القريبة
+                </div>
+              </div>
+
+            </div>
+
+            <img src="img/circle-01.svg" alt="Featured Image 1 " class="  w-[300px] md:min-w-auto lg:w-auto py-5 md:py-0 lg:py-0  px-5 md:px-0 lg:px-0 rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+
+          </div>
+        </div>
+      </div>
+      <!-- ************************************* END SECTION 05 *********************************-->
+      <!-- ************************************* BEGIN SECTION 06 *********************************-->
+      <div class="   mx-auto justify-center   mt-16 mb-24 px-4  max-w-7xl bg-transparent  ">
+
+        <div class="container   md:flex container text-center mx-auto mb-10  w-auto md:w-[900px] lg:w-[900px] bg-transparent ">
+          <p class="text-[28px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0  bg-transparent">
+            استكشف المطعم و صوره من الداخل و الخارج و كأنك تزوره
+          </p>
 
         </div>
 
+        <div id="default-carousel" class="relative w-full bg-transparent" data-carousel="slide" dir="ltr">
+          <!-- Carousel wrapper -->
+          <div class="relative h-[210px] overflow-hidden rounded-lg md:h-[500px] lg:h-[500px]">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/slider-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/slider-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/slider-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/slider-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/slider-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+          </div>
+          <!-- Slider indicators -->
+          <div class="absolute z-30 flex translate-x-1/2 bottom-2  md:bottom-5 lg:bottom-5  right-1/2 space-x-3 ">
+            <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+              data-carousel-slide-to="1"></button>
+            <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+              data-carousel-slide-to="2"></button>
+            <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+              data-carousel-slide-to="3"></button>
+            <button type="button" class="w-2 h-2 md:w-3 md:h-3 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+              data-carousel-slide-to="4"></button>
+          </div>
+          <!-- Slider controls -->
+          <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30
+              group-focus:ring-white group-focus:outline-none">
+              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span class="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full bg-white/30    ">
+              <svg class="w-3 h-3 md:w-4 md:h-4 lg:w-4 lg:h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+
+
+      </div>
+      <!-- ************************************* END SECTION 06 *********************************-->
+      <!-- ************************************* BEGIN SECTION 07 *********************************-->
+
+
+      <!-- ************************************* END SECTION 07 *********************************-->
+
+      <!-- ************************************* BEGIN SECTION 08 *********************************-->
+      <div class="flex flex-col    px-4 justify-center mx-auto max-w-7xl      ">
+
+        <div class="flex flex-col  px-2 md:px-4 md:flex-row items-center  grid gap-x-12 gap-y-16 md:grid-cols-5 lg:grid-cols-5 ">
+          <div class=" order-2 md:order-none lg:order-none md:col-span-3 lg:col-span-3  rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-02.svg')] bg-cover bg-white h-full">
+
+            <div class="px-5 md:px-9 lg:px-9 pt-10  mb-16   rounded-b-lg ">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> لا تضيع
+                  <span class="text-[#F6CB1F]"> وقتك </span>
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  تفادى تضييع الوقت و الجهد عند الوصول و ايجاد المطعم مغلق, التطبيق يعطيك أوقات عمله كل الأسبوع و الخدمات التي يقدمها
+                </div>
+              </div>
+
+            </div>
+
+            <img src="img/app-cap-02.svg" alt="Featured Image 1 " class="   w-[320px] md:w-auto lg:w-auto h-fill px-5 md:px-0 lg:px-0 rounded-t-xl mx-auto text-center items-center justify-center content-center "
+            />
+
+
+
+          </div>
+          <div class="order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
+            <div class="px-5 md:px-9 pt-10 mb-[28px]   rounded-b-lg">
+              <div class="text-[#05060F]  space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫استمتع
+                  <span class="text-[#F6CB1F]"> بخصومات حصرية </span>
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">استخدم النقاط و أكواد التخفيض و استمتع بتناول الطعام بأفضل الأسعار</div>
+              </div>
+
+            </div>
+
+            <img src="img/app-cap-004-01-01.svg" alt="Featured Image 1 " class="w-full md:min-w-auto lg:w-auto   h-fill rounded-b-[40px] mx-auto text-center items-center justify-center content-center"
+            />
+
+
+          </div>
+        </div>
+      </div>
+      <!-- ************************************* END SECTION 08 *********************************-->
+    </div>
+    <div class=" bg-[#F3F3F3] ">
+      <!-- ************************************* BEGIN SECTION 09 *********************************-->
+      <div class="flex flex-col  py-16 px-4 justify-center mx-auto max-w-7xl    ">
+
+        <div class="flex flex-col px-2 md:px-4 md:flex-row items-center  grid gap-x-12 gap-y-16 md:grid-cols-5 lg:grid-cols-5 ">
+          <div class="order-2 md:order-none lg:order-none  md:col-span-3 lg:col-span-3 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-03.svg')] bg-cover bg-white h-full">
+
+            <div class="px-5 md:px-9 lg:px-9 pt-10  pb-14   rounded-b-lg ">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫استكشف
+
+                  <span class="text-[#F6CB1F]"> قوائم الطعام‬ </span>
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">أختر المطعم المناسب بعد استكشاف أطباقه و أسعاره و استفد من العروض الحصرية عبر التطبيق</div>
+              </div>
+
+            </div>
+
+            <img src="img/app-cap-04-new.svg" alt="Featured Image 1 " class=" hidden md:block lg:block w-[320px] md:w-auto lg:w-auto h-fill px-5 md:px-0 lg:px-0 rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+            <img src="img/app-cap-04-phone.svg" alt="Featured Image 1 " class="block md:hidden lg:hidden  w-[320px] md:w-auto lg:w-auto h-fill px-5 md:px-0 lg:px-0 rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+
+
+          </div>
+          <div class="order-1 md:order-none lg:order-none md:col-span-2 lg:col-span-2 rounded-[40px]  bg-center bg-no-repeat bg-[url('img/back-02.svg')] bg-cover bg-white h-full">
+            <div class="px-5 md:px-9 pt-10 pb-14   rounded-b-lg">
+              <div class="text-[#05060F] space-y-4">
+                <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold"> ‫أين
+                  <span class="text-[#F6CB1F]">يقع</span> المطعم؟‬
+
+                </h3>
+                <div class="text-sm md:text-[20px] lg:text-[20px] leading-7  ">
+                  لا تعرف أين يتواجد المطعم، لا تتعب نفسك. بضغطة زر سيأخذك التطبيق إلى بابه.</div>
+              </div>
+
+            </div>
+
+            <img src="img/circle-02.svg" alt="Featured Image 1 " class=" mb-10 md:mb-0 lg:mb-0 w-[320px] md:min-w-auto px-5 md:px-0 lg:px-0 lg:w-auto   rounded-t-xl mx-auto text-center items-center justify-center content-center"
+            />
+
+
+          </div>
+        </div>
+      </div>
+      <!-- ************************************* END SECTION 09 *********************************-->
+    </div>
+    <!-- ************************************* BEGIN SECTION 10 *********************************-->
+  </div>
+  <!-- ************************************* END SECTION 10 *********************************-->
+  <!-- ************************************* BEGIN SECTION 11 *********************************-->
+
+  <div class="  container mx-auto   px-4   mt-24 mb-32  justify-center     max-w-7xl  ">
+
+    <p class=" mx-auto justify-center text-center  mb-10 text-[28px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0  ">
+      حمِل تطبيق
+      <span class="text-[#F6CB1F]">ريستو</span>
+    </p>
+
+
+    <div class="  container     text-white justify-center bg-center bg-no-repeat bg-[url('img/back-04.png')] bg-cover  md:bg-none lg:bg-none bg-black  rounded-[40px] max-w-7xl">
+
+      <div class="px-4 mx-auto     text-center py-10 md:py-10  lg:py-10 content-center">
+        <img src="img/logo-02.svg" class="content-center center justify-center mx-auto   mb-5  ">
+        <h3 class="text-[24px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold">
+          ريستو
+
+        </h3>
+        <p class="mb-5 text-lg font-normal text-white   lg:text-xl sm:px-16 lg:px-48  hidden md:block lg:block"> 
+         
+</p>
+
+        <p class="mb-5 text-lg font-normal text-white mt-10 lg:text-xl sm:px-16 lg:px-48 hidden lg:block md:block">تحميل </p>
+        <p class="block md:hidden lg:hidden mb-5 text-lg font-normal text-white mt-10 lg:text-xl sm:px-16 lg:px-48  ">حمِله في</p>
+
+        <div dir="ltr" class=" mt-5 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left ">
+
+          <a href="https://www.apple.com/fr/app-store/" class="flex w-[186px] h-[64px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+            <div class="mr-3">
+              <svg viewBox="0 0 384 512" class="w-7">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class=" text-xs">Download on the</div>
+              <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
+            </div>
+          </a>
+          <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[186px] h-[64px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
+            <div class="mr-3">
+              <img src="img/googleplay-02.svg" class="w-7">
+
+
+            </div>
+            <div>
+              <div class="text-xs">GIT IT ON</div>
+              <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
+            </div>
+          </a>
+
+          <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[186px] h-[64px]  md:w-[195px] md:h-[64px] lg:w-[195px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+            <div class="mr-3">
+              <img src="img/appgallery-03.svg" class="w-7 ">
+
+            </div>
+            <div>
+              <div class="text-xs">EXPLORE IT ON</div>
+              <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************************************* END SECTION 11 *********************************-->
+  <!-- ************************************* BEGIN SECTION 12 *********************************-->
+
+  <div class=" md:flex container mx-auto   px-4 mt-24 mb-16     justify-center     max-w-7xl    ">
+
+    <div class="container text-center  ">
+      <p class="mx-auto max-w-[700px] text-[30px] md:text-[64px] lg:text-[64px] font-bold lead-xl bold leading-tight mt-5 sm:mt-0 ">
+        هل أنت صاحب مطعم؟
+      </p>
+      <p class="mx-auto mt-5 text- md:text-[24px] lg:text-[24px] leading-7 max-w-[250px] md:max-w-[430px] lg:max-w-[430px]">
+        انضم إلينا و أضف لمسة خاصة لمطعمك
+      </p>
+      <div class="d-flex w-64 mx-auto mt-5">
+        <img src="img/quote-01.svg" class="float-right">
+        <div style="clear: both;"></div>
+        <button class="bg-[#F6CB1F]   text-[#03070E] font-bold py-2 px-4 rounded-xl leading-10" style=" overflow: hidden ; white-space: nowrap;">
+          اضف مطعمك الى تطبيق ريستو
+        </button>
+        <div style="clear: both;"></div>
+
+        <img src="img/quote-02.svg" class="float-left">
+        <div style="clear: both;"></div>
+
+
+      </div>
 
 
     </div>
-    <!-- ************************************* END SECTION 05 *********************************-->
+  </div>
+  <!-- ************************************* END SECTION 12 *********************************-->
 
-    <!-- ************************************* BEGIN SECTION 06 *********************************-->
+  <!-- ************************************* FOOTER SECTION  *********************************-->
 
-    <!-- component -->
-    <section class=" md:flex container mx-auto    mt-32 mb-54     justify-center     max-w-7xl     ">
-        <div class="container   text-center  ">
-            <p class="mb-16 mx-auto text-[35px] md:text-[48px] lg:text-[48px] font-bold  bold    ">
-                ألجارا بالأرقام
-            </p>
 
-            <div class="flex flex-wrap text-center">
-                <div class=" md:w-1/4 sm:w-1/2 w-full">
-                    <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">5k
-                            <span class="text-[#168EEA]">+</span>
-                        </h2>
-                        <p class="text-[18px] font-medium -mt-2">المستخدمين</p>
-                    </div>
-                </div>
-                <div class=" md:w-1/4 sm:w-1/2 w-full">
-                    <div class="  mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">2
-                            <span class="text-[#168EEA]">+</h2>
-                        <p class="text-[18px] font-medium -mt-2">الحلول </p>
-                    </div>
-                </div>
-                <div class=" md:w-1/4 sm:w-1/2 w-full">
-                    <div class=" mb-8 md:mb-2 lg:mb-2">
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">6
-                            <span class="text-[#168EEA]">+</h2>
-                        <p class="text-[18px] font-medium -mt-2">الموظفين</p>
-                    </div>
-                </div>
-                <div class=" md:w-1/4 sm:w-1/2 w-full">
-                    <div class="  mb-8 md:mb-2 lg:mb-2">
+  <footer class="bg-[#05060F] :bg-gray-900 px-4  mt-32  mt-32 ">
+    <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
+      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
+        <div>
 
-                        <h2 class="text-[30px] md:text-[40px] lg:text-[40px] font-bold">1
+          <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> Algara</h2>
 
-                            <p class=" text-[18px] font-medium -mt-2">ولايات </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ************************************* END SECTION 06 *********************************-->
-    <!-- ************************************* BEGIN SECTION 07 *********************************-->
 
-    <div class=" md:flex container mx-auto   px-4    mt-32  mb-24 justify-center     max-w-7xl    ">
+          <h2 class="block lg:hidden md:hidden mb-6   font-bold text-lg    text-white">Algara</h2>
 
-        <div class="container mx-auto text-center  px-5  ">
-            <div class="d-flex w-auto md:w-[80%] lg:w-[80%] mx-auto mt-5">
-                <img src="img/quote-about-01.svg" class="-rotate-[130deg]    float-left w-8 h-8 md:w-12 md:h-12 lg:w-12 lg:h-12 -mb-5  -ml-5 md:ml-16 lg:ml-16">
-                <div style="clear: both;"></div>
-                <p class="mt-5 text-sm md:text-[20px] lg:text-[20px] leading-7 w-auto md:w-[75%] lg:w-[75%] mx-auto    ">
-                    يجب معرفة أننا قمنا بتأسيس الشركة لتقديم حلول رقمية لحل المشاكل الموجودة لدى عملائنا. نحن نعلم جيدًا أن نجاحنا في السوق يعتمد
-                    على القيمة التي نقدمها من خلال خدماتنا و مدى تلبية هذه الخدمات لاحتياجات العملاء. لكي ننجح، يجب أن نقدم
-                    ميزتنا التنافسية و نوفر تجربة خاصة و فريدة من نوعها لعملائنا، والأهم من ذلك هو أن نضع رضى عملائنا أولويتنا
-                    الأولى. هذه هي الفلسفة التي توجه شركة ألجارا.
-                </p>
-                <div style="clear: both;"></div>
-
-                <img src="img/quote-about-02.svg" class="-rotate-[130deg]  float-right w-8 h-8 md:w-12 md:h-12 lg:w-12 lg:h-12 -mt-5  mr-0 md:mr-16 lg:mr-16">
-                <div style="clear: both;"></div>
-
-                <!-- component -->
-
-                <div class="flex  justify-between mx-auto   mt-5  items-center  ">
-                    <div class="flex items-start px-4 justify-between mx-auto text-left">
-                        <img class="w-[60px] h-[60px] md:w-[70px] md:h-[70px] lg:w-[70px] lg:h-[70px] rounded-full object-cover ltr:mr-4 rtl:ml-4 shadow"
-                            src="img/pic-01.svg" alt="avatar">
-                        <div class="items-center mt-2 ">
-                            <div class="flex    text-left   ">
-                                <h2 class="text-normal font-bold md:text-xl text-right  lg:text-xl  text-gray-900 text-left -mt-1">بن دريس محمد </h2>
-
-
-                            </div>
-                            <hp class="text-base   md:text-lg  font-medium lg:text-lg  text-right text-gray-900  text-left"> المؤسس و المدير التنفيذي </p>
-
-
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- ************************************* END SECTION 07 *********************************-->
-
-
-    <!-- ************************************* BEGIN SECTION 11 *********************************-->
-
-    <div class="  d-flex  container mx-auto   px-4   mt-32    justify-center     max-w-7xl h- " id="oursolutions">
-
-
-        <div class="          ">
-            <p class="text-[#05060F] text-[35px] md:text-[40px] lg:text-[40px] font-bold lead-xl bold leading-tight mb-16   ">
-                حلولنا
-
-            </p>
-            <div class="  flex flex-col px-0  md:px-6 lg:px-6   mx-auto space-y-16    lg:flex-row items-center text-white justify-center bg-center bg-no-repeat bg-[url('img/back-04.png')]   bg-cover  bg-black md:bg-[#168EEA] lg:bg-[#168EEA] rounded-[40px]">
-                <div class="w-full lg:w-1/2 items-center justify-center">
-                    <div class="px-4 mx-auto  pt-5 md:py-0 lg:py-0  text-center md:text-left lg:text-left       ">
-                        <img src="img/logo-02.svg" class="content-center center justify-center  mx-auto md:mx-0 lg:mx-0   mb-5  ">
-                        <h3 class="text-[32px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold mb-5 text-right">
-                            <span class="hidden md:inline-flex lg:inline-flex">تطبيق ريستو </span>
-
-                        </h3>
-                        <h3 class="block md:hidden lg:hidden text-[32px] md:text-[32px] lg:text-[32px] font-bold lead-xl bold mb-5 text-center">
-                            <span class=""> ريستو </span>
-
-                        </h3>
-                        <div class="hidden md:block lg:block text-sm md:text-[20px] lg:text-[20px] leading-7  w-auto md:w-[500px] lg:w-[500px] text-right">
-                        التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم </div>
-
-                        <p class="mb-5 text-lg font-normal text-white mt-10 lg:text-xl     hidden lg:block md:block   text-right">متاح على</p>
-                        <p class="block md:hidden lg:hidden mb-5 text-[20px] font-normal text-white mt-10 md:text-xl lg:text-xl sm:px-16 lg:px-48  ">التطبيق الأول في الجزائر لتسبيق الطلبيات و الحجز في المطاعم</p>
-
-                        <div class="hidden md:inline-flex lg:inline-flex mt-5 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left "
-                            dir="ltr">
-
-                            <a href="https://www.apple.com/fr/app-store/" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <svg viewBox="0 0 384 512" class="w-7">
-                                        <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-                                        />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <div class=" text-xs">Download on the</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
-                                </div>
-                            </a>
-                            <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
-                                <div class="mr-3">
-                                    <img src="img/googleplay-02.svg" class="w-7">
-
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">GIT IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
-                                </div>
-                            </a>
-
-                            <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <img src="img/appgallery-03.svg" class="w-7 ">
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">EXPLORE IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
-                                </div>
-                            </a>
-
-                        </div>
-                        <div class="block md:hidden lg:hidden  mt-10 flex flex-col d-flex space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-3 justify-center mx-auto items-center text-left "
-                            dir="ltr">
-                            <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
-                                <div class="mr-3">
-                                    <img src="img/googleplay-02.svg" class="w-7">
-
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">GIT IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
-                                </div>
-                            </a>
-                            <a href="https://www.apple.com/fr/app-store/" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <svg viewBox="0 0 384 512" class="w-7">
-                                        <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-                                        />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <div class=" text-xs">Download on the</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
-                                </div>
-                            </a>
-
-
-                            <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[186px] h-[64px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <img src="img/appgallery-03.svg" class="w-7 ">
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">EXPLORE IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
-                                </div>
-                            </a>
-
-                        </div>
-                        <button type="button" class="mt-10 text-[18px] md:text-[16px] lg:text-[16px] text-black md:text-[#168EEA] lg:text-[#168EEA]  bg-[#F6CB1F] md:bg-white lg:bg-white  focus:ring-4   font-bold rounded-full md:rounded-lg lg:rounded-lg      mb-2 w-full md:w-auto lg:w-auto   float-right "
-                            style="padding:16px 16px 16px 16px; overflow: hidden ; white-space: nowrap; ">
-                            <a href="index-ar.html">معرفة المزيد عن تطبيق ريستو</a>
-                        </button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-
-                <div class=" hidden lg:block md:block flex items-center justify-center w-full h-full lg:w-1/2">
-                    <img class="    h-full mx-auto rounded-md lg:max-w-2xl" src="img/app-cap-09-ar.svg" alt="glasses photo">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- ************************************* END SECTION 11 *********************************-->
-    <!-- ************************************* FOOTER SECTION  *********************************-->
-
-
-    <footer class="bg-[#05060F] :bg-gray-900 px-4  mt-32  mt-32 ">
-        <div class="mx-auto w-full container max-w-7xl     mx-auto justify-center ">
-            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 mx-auto ">
-                <div>
-
-                    <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> Algara</h2>
-
-
-                    <h2 class="block lg:hidden md:hidden mb-6   font-bold text-lg    text-white">Algara</h2>
-
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="about-ar.html" class=" hover:underline">من نحن</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="mailto:contact@algara.company?" class="hover:underline">تواصل معنا </a>
-                        </li>
-                        <li class="mb-4 mt-24 mx-auto text-center  items-center hidden lg:block md:block ">
-                            <div class="flex     md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center">
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
-                                        <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
-                                        />
-                                    </svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
-                                        <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
-                                        <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    <span class="sr-only">Facebook page</span>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    <span class="sr-only">Twitter page</span>
-                                </a>
-
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                </div>
-
-                <div>
-                    <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">حلولنا </h2>
-                    <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> حلولنا </h2>
-
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline block  ">ريستو </a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline block  ">ريستو للمطاعم</a>
-                        </li>
-
-
-                    </ul>
-                </div>
-                <div class=" ">
-                    <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف </h2>
-
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">انضم لفريقنا</a>
-                        </li>
-
-
-                    </ul>
-                </div>
-                <div class="hidden lg:block md:block">
-                    <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق ريستو</h2>
-
-
-
-                    <ul class="text-gray-500 :text-gray-400 font-medium" dir="ltr">
-                        <li class="mb-4">
-                            <a href="https://www.apple.com/fr/app-store/" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <svg viewBox="0 0 384 512" class="w-7">
-                                        <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-                                        />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <div class=" text-xs">Download on the</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
-                                <div class="mr-3">
-                                    <img src="img/googleplay-02.svg" class="w-7">
-
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">GIT IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
-                                <div class="mr-3">
-                                    <img src="img/appgallery-03.svg" class="w-7 ">
-
-                                </div>
-                                <div>
-                                    <div class="text-xs">EXPLORE IT ON</div>
-                                    <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="flex  block lg:hidden md:hidden   md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center justify-center  "
-                style="text-align: center;margin: auto; margin-bottom: 24px">
+          <ul class="text-gray-500 :text-gray-400 font-medium">
+            <li class="mb-4">
+              <a href="index-ar.html" class=" hover:underline">من نحن</a>
+            </li>
+            <li class="mb-4">
+              <a href="mailto:contact@algara.company?" class="hover:underline">تواصل معنا           </a>
+            </li>
+            <li class="mb-4 mt-24 mx-auto text-center  items-center hidden lg:block md:block ">
+              <div class="flex     md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center">
                 <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
-                        <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
-                        />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
+                    <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
+                    />
+                  </svg>
                 </a>
                 <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
-                        <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
-                        <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
-                            clip-rule="evenodd" />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
+                    <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
+                    <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
+                      clip-rule="evenodd" />
+                  </svg>
                 </a>
                 <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    <span class="sr-only">Facebook page</span>
+                  <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                    <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Facebook page</span>
                 </a>
                 <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
-                    <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    <span class="sr-only">Twitter page</span>
+                  <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Twitter page</span>
                 </a>
 
-            </div>
-            <div class="w-full mx-auto max-w-screen-xl   md:flex items-center  justify-between mx-auto justify-center pb-10 justify-center content-center ">
+              </div>
+            </li>
 
-                <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 :text-gray-400 sm:mt-0 hidden md:inline-flex lg:inline-flex">
-                    <li>
-                        <a href="RESTO-PRIVACY-POLICY.html" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a>
-                    </li>
-                    <li>
-                        <a href="RESTO-TERMS-AND-CONDITIONS.html" class="hover:underline me-4 md:me-6">شروط الاستخدام</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات الارتباط </a>
-                    </li>
-
-                </ul>
-                <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">
-                    <a href="RESTO-PRIVACY-POLICY.html" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a> -
-                    <a href="RESTO-TERMS-AND-CONDITIONS.html" class="hover:underline me-4 md:me-6">شروط الاستخدام</a> -
-                    <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات الارتباط </a>
-
-                </h1>
-
-                <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  "> © 2023 شركة ألجارا. جميع الحقوق محفوظة.
-                </h1>
-            </div>
+          </ul>
 
 
         </div>
 
+        <div>
+          <h2 class="mb-6  block lg:hidden md:hidden font-bold text-lg    text-white">حلولنا                </h2>
+          <h2 class="mb-6 hidden lg:block md:block  font-bold text-lg    text-white"> حلولنا               </h2>
 
-    </footer>
-    <!-- ************************************* FOOTER SECTION  *********************************-->
+          <ul class="text-gray-500 :text-gray-400 font-medium">
+            
+            <li class="mb-4">
+              <a href="#" class="hover:underline block  ">ريستو               </a>
+            </li>
+            <li class="mb-4">
+              <a href="#" class="hover:underline block  ">ريستو للمطاعم</a>
+            </li>
+           
+
+          </ul>
+        </div>
+        <div class=" ">
+          <h2 class="mb-6   font-bold text-lg    text-white"> نحن نوظف        </h2>
+
+          <ul class="text-gray-500 :text-gray-400 font-medium">
+            <li class="mb-4">
+              <a href="#" class="hover:underline">انضم لفريقنا</a>
+            </li>
+            
+
+          </ul>
+        </div>
+        <div class="hidden lg:block md:block">
+          <h2 class="mb-6   font-bold text-lg    text-white">تنزيل تطبيق ريستو</h2>
 
 
 
+          <ul class="text-gray-500 :text-gray-400 font-medium" dir="ltr">
+            <li class="mb-4">
+              <a href="https://www.apple.com/fr/app-store/" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+                  <div class="mr-3">
+                      <svg viewBox="0 0 384 512" class="w-7">
+                          <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                          />
+                      </svg>
+                  </div>
+                  <div>
+                      <div class=" text-xs">Download on the</div>
+                      <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">App Store</div>
+                  </div>
+                </a>
+          </li>
+          <li class="mb-4">
+              <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center    ">
+                  <div class="mr-3">
+                      <img src="img/googleplay-02.svg" class="w-7">
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.10.1/dist/alpine.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+                  </div>
+                  <div>
+                      <div class="text-xs">GIT IT ON</div>
+                      <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">GooglePlay</div>
+                  </div>
+                </a>
+          </li>
+          <li class="mb-4">
+              <a href="https://huawei-appgallery.fr.uptodown.com/android/telecharger" class="flex w-[130px] h-[50px]  md:w-[186px] md:h-[64px] lg:w-[186px] lg:h-[64px] bg-white text-[#05060F] rounded-xl items-center justify-center   ">
+                  <div class="mr-3">
+                      <img src="img/appgallery-03.svg" class="w-7 ">
+
+                  </div>
+                  <div>
+                      <div class="text-xs">EXPLORE IT ON</div>
+                      <div class="text-l md:text-2xl lg:text-2xl font-semibold font-sans -mt-1">AppGallery</div>
+                  </div>
+                </a>
+          </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex  block lg:hidden md:hidden   md:mt-0 space-x-5 rtl:space-x-reverse mx-auto text-center  items-center justify-center  "
+        style="text-align: center;margin: auto; margin-bottom: 24px">
+        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 1536 1504">
+            <path fill="currentColor" d="M349 497v991H19V497h330zm21-306q1 73-50.5 122T184 362h-2q-82 0-132-49T0 191q0-74 51.5-122.5T186 20t133 48.5T370 191zm1166 729v568h-329V958q0-105-40.5-164.5T1040 734q-63 0-105.5 34.5T871 854q-11 30-11 81v553H531q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52t87-43.5T1157 474q171 0 275 113.5T1536 920z"
+            />
+          </svg>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 15 15">
+            <path fill="currentColor" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z" />
+            <path fill="currentColor" fill-rule="evenodd" d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0h-6ZM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0ZM11 4h1V3h-1v1Z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+          <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Facebook page</span>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 :hover:text-white">
+          <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+            <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Twitter page</span>
+        </a>
+
+      </div>
+      <div class="w-full mx-auto max-w-screen-xl   md:flex items-center  justify-between mx-auto justify-center pb-10 justify-center content-center ">
+
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 :text-gray-400 sm:mt-0 hidden md:inline-flex lg:inline-flex">
+          <li>
+            <a href="RESTO-PRIVACY-POLICY.html" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a>
+          </li>
+          <li>
+            <a href="RESTO-TERMS-AND-CONDITIONS.html" class="hover:underline me-4 md:me-6">شروط الاستخدام</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات الارتباط </a>
+          </li>
+
+        </ul>
+        <h1 class="block md:hidden lg:hidden mx-auto text-center text-sm text-gray-500 font-medium ">
+          <a href="RESTO-PRIVACY-POLICY.html" class="hover:underline me-4 md:me-6">سياسة الخصوصية</a> - <a href="RESTO-TERMS-AND-CONDITIONS.html" class="hover:underline me-4 md:me-6">شروط الاستخدام</a> - <a href="#" class="hover:underline me-4 md:me-6">سياسة ملفات الارتباط </a>
+
+        </h1>
+
+        <h1 class="text-sm text-gray-500 text-center content-center :text-gray-400 font-medium  ">   © 2023 شركة ألجارا. جميع الحقوق محفوظة.
+        </h1>
+      </div>
 
 
+    </div>
 
-    <script>
-        contextMenuCatch = {
-            ie: function () {
-                if (document.all) {
-                    return false;
-                }
-            },
-            netscape: function (e) {
-                if (document.layers || (document.getElementById && !document.all)) {
-                    if (e.which == 2 || e.which == 3) {
-                        return false;
-                    }
-                }
-            }
+
+  </footer>
+  <!-- ************************************* FOOTER SECTION  *********************************-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  <script src="//unpkg.com/alpinejs" defer></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.10.1/dist/alpine.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script>
+    function carousel() {
+      return {
+        active: 0,
+        init() {
+          var flkty = new Flickity(this.$refs.carousel, {
+            wrapAround: true
+          });
+          flkty.on('change', i => this.active = i);
         }
+      }
+    }
 
-        if (document.layers) {
-            document.captureEvents(Event.mousedown);
-            document.onmousedown = contextMenuCatch.netscape;
-        } else {
-            document.onmouseup = contextMenuCatch.netscape;
-            document.oncontextmenu = contextMenuCatch.ie;
+    function carouselFilter() {
+      return {
+        active: 0,
+        changeActive(i) {
+          this.active = i;
+
+          this.$nextTick(() => {
+            let flkty = Flickity.data(this.$el.querySelectorAll('.carousel')[i]);
+            flkty.resize();
+
+            console.log(flkty);
+          });
+
         }
-        document.oncontextmenu = new Function("return false");
-        document.onselectstart = new Function("return false");
-    </script>
+      }
+    }
+  </script>
+
+<script>
+  contextMenuCatch = {
+  ie: function(){
+      if( document.all ){
+          return false;
+      }
+  },
+  netscape: function(e){
+      if( document.layers || (document.getElementById && !document.all) ){
+          if( e.which == 2 || e.which == 3 ){
+              return false;
+          }
+      }
+  }
+}
+
+if (document.layers) {
+  document.captureEvents(Event.mousedown);
+  document.onmousedown = contextMenuCatch.netscape;
+} else {
+  document.onmouseup = contextMenuCatch.netscape;
+  document.oncontextmenu = contextMenuCatch.ie;
+}
+document.oncontextmenu = new Function("return false");
+document.onselectstart = new Function("return false");
+</script>
 </body>
 
 </html>
